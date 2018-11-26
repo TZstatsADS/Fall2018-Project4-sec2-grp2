@@ -96,6 +96,7 @@ Nader
 groups
 and
 the
+AFL<U+2019>CID
 supported
 only
 the
@@ -246,10 +247,11 @@ as
 so
 and
 ca
+tlgated.<U+201C>
 1cm
 371157.
 The
-conce<U+9225><U+FFFD>
+conce<U+2014>
 ed
 of
 "congresslonal
@@ -939,6 +941,7 @@ his
 own
 way,
 1n
+MCA<U+2019>developed
 materlal
 at
 Will."
@@ -1618,6 +1621,7 @@ leal
 costs
 and
 1nvestment
+<U+201C>4.111937095737454
 management"
 531d
 was
@@ -2413,6 +2417,7 @@ many
 Votes
 have
 you
+gut?<U+201D>
 The
 speaker
 analoglzes
@@ -2724,6 +2729,7 @@ threat
 result
 1nterest
 law
+<U+FB01>lms"
 such
 Ralph
 Nadr
@@ -2762,6 +2768,7 @@ the
 of
 the
 above
+<U+FB01>lms
 the
 free
 an
@@ -3081,6 +3088,7 @@ Alr
 Government
 Relatlons
 and
+1ts<U+2019>ollt1cal
 Actlon
 Barnes
 spoke
@@ -3448,7 +3456,7 @@ epldemlology
 we
 are
 to
-react<U+9225><U+FFFD>
+react<U+201D>
 Unless
 you
 object,
@@ -3650,6 +3658,7 @@ board
 general
 to
 the
+MI<U+2018>
 staff.
 the
 of

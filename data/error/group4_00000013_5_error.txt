@@ -33,7 +33,6 @@ reportlng.
 a
 Hlth
 expertlse
-155<U+9225><U+FFFD>:
 dlrectly
 Hlth
 s
@@ -88,7 +87,7 @@ L15:
 shootlng
 andiwlll
 dlstrlbuted
-<U+9225><U+FFFD>
+<U+2018>
 unlty
 televlslon
 coordlnatlng
@@ -426,7 +425,7 @@ establlshed.
 by
 (RrILrlS).
 J.
-<U+9225><U+697B>71A727
+<U+2018>R71A727
 a
 subcommlttee
 objectlve
@@ -655,7 +654,6 @@ th
 establlsh
 n
 hearlns
-<U+9225><U+6EFA>am
 a
 mm
 Commlt-ee
@@ -733,7 +731,6 @@ developlng
 countrles.
 thls
 system
-<U+94FF><U+4E74>ms
 gnlflcant
 v.5.
 whlch
@@ -772,7 +769,6 @@ m
 subcommlttee
 Amlnlstratlon's
 HouSE,
-(Dro<U+94FF><U+4FFD>ln
 a
 mm
 13.1}.
@@ -814,7 +810,6 @@ a
 a
 reauthorlzatlon
 wlthout
-Signi<U+94FF><U+4E67>ant
 leglslatlve
 thls
 exlst
@@ -823,7 +818,7 @@ regulatlng
 Dlspute
 fundlng
 a
-<U+94FF><U+4E6A>s,
+<U+FB01>es,
 system
 5..
 shlppers
@@ -833,7 +828,7 @@ authorlty.
 consldered
 .5
 pendlng
-c.<U+9225><U+FFFD>
+c.<U+2018>
 by
 rulemaklng.
 A
@@ -998,7 +993,6 @@ mm
 confldentlallty
 e
 deslgned
-1nfon<U+9225><U+6A94>at
 confldentlal.
 g
 mm
@@ -1230,7 +1224,7 @@ mm
 Commlttee
 t
 by
-<U+9225><U+6EFA>m,
+<U+201D>Hm,
 Humphrey
 m
 m
@@ -1265,7 +1259,7 @@ orlglnally
 provlslon
 ,
 Commltteejoassed
-<U+9225><U+6A95>stiEAT
+<U+2019>ostiEAT
 admlnlstratlve
 clvll
 authorlty,

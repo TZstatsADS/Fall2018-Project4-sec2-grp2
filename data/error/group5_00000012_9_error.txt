@@ -254,7 +254,7 @@ provlslons
 1:
 1:.
 envlronmental
-<U+9225><U+FFFD>
+<U+2018>
 mm
 commlttee
 a
@@ -264,7 +264,7 @@ contlnue
 "unclls
 unprovlng
 capabllltles.
-W-<U+9225><U+6981>e
+W-<U+2018>Ve
 worklng
 mm
 Ie
@@ -594,7 +594,6 @@ cm
 a
 1::
 cm
-all<U+9225><U+FFFD>,
 u
 envlronment.
 p
@@ -624,7 +623,6 @@ exlstlng
 systems
 modlflcatlon
 t
-ereo<U+94FF><U+FFFD>.
 o
 1ndustry
 mlnlmlzatlon
@@ -656,7 +654,7 @@ a
 a
 A
 1:
-55.1<U+9225><U+FFFD>:
+55.1<U+201C>:
 FT
 Dutslde
 Servlces
@@ -1067,7 +1065,7 @@ supply
 dlsruptlo
 n
 cm
-<U+9225><U+FFFD>
+<U+2018>
 cm
 ts
 strengthenlng
@@ -1160,7 +1158,7 @@ posslble"
 compllance
 Hlth
 e.g.,
-pm<U+9225><U+FFFD>,
+pm<U+201C>,
 labellng
 avallablllty
 workshops
@@ -1215,7 +1213,7 @@ Hlth
 a
 t
 s
-'DNGL<U+9225><U+696D>
+'DNGL<U+2018>I
 TD
 v.5.
 Dranlzlng

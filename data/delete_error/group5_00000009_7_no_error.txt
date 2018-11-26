@@ -164,7 +164,7 @@ or
 1nsofar
 as
 requlres
-1dent1<U+62E2>1catlon
+1dent1<U+00A3>1catlon
 and
 of
 hazards;
@@ -1799,7 +1799,7 @@ other
 car
 provlders
 and
-<U+94FF><U+4E74>led
+<U+FB01>lled
 response
 to
 the
@@ -1879,13 +1879,14 @@ or
 allocate
 markets.
 cm,
-<U+94FF><U+4E74>led
+<U+FB01>lled
 brlefs
 before
 the
 law
 judge,
 will
+<U+FB01>lls
 brlef
 1n
 the
@@ -2675,7 +2676,7 @@ Dhlo
 Chemlcal
 to
 produce
-<U+62E2>11m
+<U+00A3>11m
 on
 responder
 training

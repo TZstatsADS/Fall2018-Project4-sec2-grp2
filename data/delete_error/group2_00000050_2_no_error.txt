@@ -80,9 +80,11 @@ health
 spectre
 some
 h.ve
+suggested.<U+2018>
 'Cancer
 15
 complex
+subject,<U+2018>
 we
 polnted
 out.
@@ -313,6 +315,7 @@ the
 EPA
 'trade
 off
+polley,<U+2019>
 broadly
 supported
 busl
@@ -734,7 +737,7 @@ Chemlcals
 Man
 facturer
 Assoclatlom,
-1dent1<U+62E2>1ed
+1dent1<U+00A3>1ed
 1n
 1nto
 MCA.
@@ -1491,7 +1494,7 @@ benzene
 at
 current
 concentratlon
-11mm.<U+7984>
+11mm.<U+00BB>
 the
 regulatlons
 as
@@ -1830,7 +1833,7 @@ The
 the
 AIHC
 are
-1dent1<U+62E2>1ed
+1dent1<U+00A3>1ed
 as
 bemg
 the
@@ -2161,7 +2164,7 @@ the
 polnt
 of
 manufacturer
-1dent1<U+62E2>1ed
+1dent1<U+00A3>1ed
 potent
 31
 hazards
@@ -3236,6 +3239,7 @@ recommendatlons
 rather
 than
 develop
+1nfon<U+2019>nat
 on
 [emphasls
 and
@@ -3460,7 +3464,7 @@ rule
 and
 must
 have
-91119370957374<U+9225><U+FFFD>
+91119370957374<U+201C>
 been
 de
 the
@@ -3469,6 +3473,7 @@ be
 an
 exceptlon.
 "Th1:
+5<U+2014>y5
 that
 the
 tem

@@ -581,6 +581,7 @@ Long
 and
 Mark
 Andrews
+<U+201C>Hm
 and
 Representatlves
 Tauzln
@@ -1790,7 +1791,7 @@ The
 Chemlcal
 Referral
 Center
-<U+82A6>may.
+<U+00AB>may.
 Will
 be
 ome
@@ -2681,6 +2682,7 @@ gasollne.
 Senator
 Lowell
 Welcker
+<U+201C>Hm
 has
 of
 ered
@@ -2856,6 +2858,7 @@ Part
 approa
 for
 separate
+mum<U+201C>;
 of
 low?
 and
@@ -3174,6 +3177,7 @@ proposed
 change
 to
 and
+171<U+2019>s<U+201D>
 depreclable
 115a
 subst.ntlally

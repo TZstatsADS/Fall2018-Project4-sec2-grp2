@@ -80,7 +80,7 @@ to
 Successful
 Programs.
 were
-1dent1<U+62E2>1ed:
+1dent1<U+00A3>1ed:
 The
 Strong
 senlor
@@ -126,7 +126,7 @@ or
 parnume
 executlve
 dlrector
-<U+9225><U+6E15>anufacturers
+<U+201C>manufacturers
 assoclatlon
 st.ff
 located
@@ -239,7 +239,7 @@ Fully
 Th.follow1ng
 elements
 were
-1dent1<U+62E2>1ed
+1dent1<U+00A3>1ed
 as
 factors
 may
@@ -1227,11 +1227,11 @@ of
 the
 report
 of
-th<U+82A6>
+th<U+00AB>
 Government
 Relatlons
 are
-<U+9225><U+6F0B>oted
+<U+201D>Voted
 rolE.
 and
 organlzatlon.
@@ -1398,6 +1398,7 @@ of
 recent
 CMA
 Congresslonal
+<U+201D>"dittte
 1994795
 and
 Progress
@@ -1414,6 +1415,7 @@ on
 the
 management
 of
+lssues,<U+2019>
 and
 communlcatlons
 efforts;
@@ -1627,7 +1629,7 @@ would
 be
 recaptured
 at
-postilg<U+94FF><U+4E7B>
+postilg<U+FB01>s
 corporate
 tax
 rates.
@@ -1802,7 +1804,7 @@ ember.
 1934,
 the
 Tax
-1dent1<U+62E2>1ed
+1dent1<U+00A3>1ed
 several
 major
 tax

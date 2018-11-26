@@ -117,7 +117,7 @@ mm
 ordlnary
 estlmated
 quallfy
-<U+9225><U+6F1A>:
+<U+201D>a:
 m
 t
 pollcles

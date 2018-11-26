@@ -25,7 +25,7 @@ llght
 antlclpated
 reauthorlzetlon
 thls
-y<U+82A6><U+82A6>r,
+y<U+00AB><U+00AB>r,
 cm
 actlvlty
 mmsm
@@ -100,7 +100,7 @@ anvlronuntal
 CoBlttee
 actlvltles,
 conductlng
-<U+9225><U+6EBE>€<U+699F>a
+<U+201C><U+2018>ha
 BMC
 a
 a
@@ -188,13 +188,13 @@ pollcy
 cm
 j....lopm......"
 by
-<U+82A6>t
+<U+00AB>t
 mattlngs.)
 addltlon,
 0:
 horlsontsl
 (1.e.,
-<U+82A6>d
+<U+00AB>d
 Mppsmung
 standlng
 commltteesy
@@ -626,7 +626,6 @@ cm
 addltlonal
 cm
 I
-themselves<U+9225><U+FFFD>.
 I
 a
 by
@@ -720,7 +719,7 @@ stafflng
 parumpauom,
 (leglslatlve,
 publlc/medla
-lmage<U+94FF><U+4E64>ulldlng
+lmage<U+FB01>aulldlng
 actlvltles,
 a
 thls

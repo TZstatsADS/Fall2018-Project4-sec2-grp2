@@ -1501,7 +1501,7 @@ Iron
 and
 Steel
 has
-<U+94FF><U+4E74>led
+<U+FB01>lled
 petition
 for
 certlorarl
@@ -1518,7 +1518,7 @@ request
 from
 EPA,
 CMA
-<U+94FF><U+4E74>led
+<U+FB01>lled
 comments
 on
 October
@@ -1620,7 +1620,7 @@ CMA/EPA
 Program
 The
 Alr
-<U+9225><U+6A95>llutant
+<U+2019>ollutant
 Effects
 and
 Process

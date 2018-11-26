@@ -243,7 +243,7 @@ asks
 to
 assume
 for
-project<U+9225><U+FFFD>
+project<U+201C>
 The
 panel
 was
@@ -251,7 +251,7 @@ held
 1n
 February,
 The
-<U+9225><U+6A83>nel
+<U+2019>anel
 15
 two
 surveys
@@ -463,6 +463,7 @@ sues.
 twoiyur
 chronlc
 and
+three<U+FB02>generatlon
 reproductlon
 study
 of
@@ -507,6 +508,7 @@ panal
 la
 bow
 53
+<U+201C>15:5
 to
 man
 bafora
@@ -1280,7 +1282,7 @@ Bloated
 leal
 am
 Speclal
-Fro<U+82A6>rta<U+82A6>
+Fro<U+00AB>rta<U+00AB>
 03
 794
 BIOMEDICAL

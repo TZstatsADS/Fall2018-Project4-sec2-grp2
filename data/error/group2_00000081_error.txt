@@ -147,7 +147,6 @@ saylng
 mm
 a
 1:
-Talent<U+9225><U+FFFD>;
 untll
 ms
 mm
@@ -169,7 +168,6 @@ cm
 wlthout
 dlrectly
 a
-people<U+9225><U+FFFD>.
 a
 by
 persuadlng

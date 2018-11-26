@@ -76,7 +76,7 @@ responslblllcy
 thls
 flrs
 me-tlng
-L98L<U+9225><U+FFFD>
+L98L<U+201D>
 PCB
 conductlng
 1::
@@ -91,7 +91,7 @@ trlcal
 whlch
 PCBS,
 PCBS,
-c.<U+9225><U+FFFD>
+c.<U+2018>
 e
 nmltted
 analytlcal
@@ -141,7 +141,6 @@ styrene
 relatlng
 I
 A
-three<U+94FF><U+4FEB>eneratlon
 styr-
 a
 drlnklng
@@ -158,7 +157,6 @@ prasantly
 aaaaaalng
 thaaa
 dlffara
-<U+9225><U+FFFD>15:5
 procaadlng
 Hlth
 a
@@ -322,7 +320,7 @@ L
 Acrylon
 trlle
 3,049.54
-3,150,9<U+9225><U+FFFD>5
+3,150,9<U+2018>5
 Eplchlo
 ohydrln
 Glycol

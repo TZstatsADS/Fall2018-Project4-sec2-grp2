@@ -96,7 +96,7 @@ manufacturlng
 e
 mm
 SlDDmllllon
-1dent1<U+62E2>1ed.7
+1dent1<U+00A3>1ed.7
 A
 partlclpatlon,
 by
@@ -116,7 +116,7 @@ commlttees
 prl-rltles
 prellmlna
 y
-E<U+9225><U+FFFD>!
+E<U+201C>!
 Technlcal
 I
 Industry
@@ -177,7 +177,7 @@ I
 Technlca
 partlclpated
 televlslon,
-1<U+9225><U+FFFD>
+1<U+2018>
 prlnt
 Chlcago,
 lngton,
@@ -234,7 +234,7 @@ tlclpated
 Spllls
 Chrlstl,
 u.
-.<U+9225><U+FFFD>
+.<U+2018>
 d
 J.
 1ntenslve
@@ -619,7 +619,7 @@ cm
 a
 dlstrlbute
 by
-.119<U+7984>:
+.119<U+00BB>:
 flexlblllty
 respondlng
 .n
@@ -633,6 +633,6 @@ a
 .
 a
 cm
-M.<U+9225><U+FFFD>
+M.<U+2018>
 y
 p

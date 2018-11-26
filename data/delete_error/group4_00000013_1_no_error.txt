@@ -34,7 +34,7 @@ Executlve
 Chalrman
 Holmer
 Speclal
-<U+9225><U+6A99>ogram
+<U+2019>rogram
 Fernandez
 Report
 0
@@ -258,7 +258,7 @@ Vlack
 Gary
 Herman
 Davld
-5<U+63B3>11
+5<U+00B0>11
 Invl-atlon:
 Stuart
 Allen,
@@ -735,6 +735,7 @@ p.rt1cularly
 1n
 the
 Senate.
+swam)<U+201C>
 FUNDING
 upon
 Mr.
@@ -1725,7 +1726,8 @@ Yo
 Counse
 Mr.
 Ch-rles
-McKenn<U+9225><U+FFFD>
+O'Connor<U+201C>
+McKenn<U+201D>
 Conner
 Cuneo
 1575

@@ -273,7 +273,7 @@ cm
 flrm
 cm
 o
-<U+94FF><U+5001>
+<U+FB02>u
 T
 Afflllated
 Hlth
@@ -300,7 +300,7 @@ Hlth
 t
 Afflllate
 Hlth
-<U+9225><U+FFFD>
+<U+2019>
 (utlllze
 t
 .
@@ -379,7 +379,6 @@ servlce
 leadershlp
 a
 testlmony.
-<U+9225><U+FFFD>"dittte
 Dbjectlves
 A
 sectln
@@ -388,7 +387,6 @@ Commlttee
 ...spha-15;
 a
 prlorlty
-lssues,<U+9225><U+FFFD>
 llnklng
 leglslatlve
 cm
@@ -490,7 +488,7 @@ Coanlttee
 leglslatlve
 cm
 ommlssloned
-Prlce<U+94FF><U+5097>€<U+69A3>aterhouse
+Prlce<U+FB02><U+2018>laterhouse
 a
 effectlve
 ehmslcal

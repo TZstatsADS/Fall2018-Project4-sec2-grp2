@@ -218,6 +218,7 @@ Chlorlde
 LIMI
 Benzene
 car
+IQU<U+2018>ES
 ucnm
 KUHLMANN
 Fluorocarbon
@@ -225,6 +226,7 @@ Epoxy
 HAAS
 chlorlde
 Phosgene
+SALSBU<U+2018>RY
 LAB
 Arsenlc
 5cm

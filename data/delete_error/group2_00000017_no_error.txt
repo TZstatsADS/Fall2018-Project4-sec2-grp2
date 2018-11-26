@@ -58,7 +58,7 @@ refer
 you
 to
 the
-<U+94FF><U+4E74>led
+<U+FB01>lled
 report
 for
 the
@@ -915,7 +915,7 @@ penalty
 of
 $50,000.
 In
-markiu<U+9225><U+FFFD>
+markiu<U+201D>
 to
 placate
 certaln
@@ -936,6 +936,7 @@ and
 $500,000
 when
 from
+shore<U+FB01>aasd
 as
 provlded
 1n
@@ -976,6 +977,7 @@ for
 excess
 of
 two
+three<U+FB01>lea
 perlod.
 The
 markiup
@@ -1181,7 +1183,7 @@ advance
 notlce
 of
 rule
-1dent1<U+62E2>1ed
+1dent1<U+00A3>1ed
 Hazardous
 Materlal
 Docket
@@ -1389,7 +1391,7 @@ recelved
 response
 to
 MCA
-<U+94FF><U+4E74>led
+<U+FB01>lled
 tlmely
 response
 to
@@ -1402,7 +1404,7 @@ The
 revlsed
 MCA
 HI
-<U+94FF><U+4E74>led
+<U+FB01>lled
 15
 belleved
 to
@@ -1485,6 +1487,7 @@ each
 modal
 (rail,
 water
+311<U+2018>7-
 Under
 the
 new
@@ -1646,7 +1649,7 @@ for
 such
 segreg.tlon.
 MCA
-<U+94FF><U+4E74>led
+<U+FB01>lled
 statements
 the
 segregatlon
@@ -2021,6 +2024,7 @@ composlte
 of
 eventually
 became
+ne<U+FB01>wne
 Rallroad
 Revltallzatlon
 and

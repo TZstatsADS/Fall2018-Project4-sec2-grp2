@@ -102,7 +102,7 @@ Subcommlttee
 3.x.
 m
 commlttee.
-<U+9225><U+6EFA>m,
+<U+201D>Hm,
 Commlttee,
 a
 1:
@@ -116,7 +116,7 @@ a
 agalnst
 Republlcans.
 e
-<U+9225><U+6EFA>m.
+<U+201D>Hm.
 SubcomlttEE,
 Publlc
 Commlttee,
@@ -183,7 +183,7 @@ untll
 fundlng
 a
 swmmmo
-Pr<U+82A6>s#nted
+Pr<U+00AB>s#nted
 by
 w.
 Whlte.

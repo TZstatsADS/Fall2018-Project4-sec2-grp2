@@ -42,7 +42,7 @@ hearlng
 electrlcal
 contalnlng
 PCBS.
-addltlon<U+9225><U+FFFD>
+addltlon<U+201D>
 a
 leglslatlve
 hearlng
@@ -132,7 +132,7 @@ agalnst
 m
 strength
 by
-<U+9225><U+6DD7>m,
+<U+201C>Hm,
 opposltlon
 commltted
 prestlge
@@ -145,7 +145,6 @@ a
 Commlttee
 Commlttee
 Domenlcl
-<U+9225><U+6DD7>m
 provlslons
 thls
 1ntenslve
@@ -358,7 +357,7 @@ by
 tastlfled
 prlmarlly
 modlflcatlon
-Chaf<U+82A6><U+82A6>',
+Chaf<U+00AB><U+00AB>',
 subcommlttee
 untll
 Publlc
@@ -933,7 +932,7 @@ Subcommlttee
 3.x.
 by
 Provlslons
-<U+6402>
+<U+00A7>
 servlces,
 rlghts,
 negotlatlng

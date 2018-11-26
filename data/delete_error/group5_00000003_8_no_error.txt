@@ -359,6 +359,7 @@ and
 EPA
 on
 1n5urance
+lssues,<U+2019>
 and
 customlzed
 solutlons,
@@ -778,7 +779,7 @@ to
 1mplement
 Good
 Laboratory
-1dent1<U+62E2>1ed,
+1dent1<U+00A3>1ed,
 between
 JCIA
 and
@@ -791,7 +792,7 @@ Guldes
 to
 Traders
 and
-Manufacturers<U+9225><U+FFFD>
+Manufacturers<U+201C>
 1n
 the
 export
@@ -847,6 +848,7 @@ Assessment
 Scheme
 for
 New
+Chemlcals.<U+2018>
 Representatlves
 from
 two

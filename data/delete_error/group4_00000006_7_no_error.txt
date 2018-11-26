@@ -98,6 +98,7 @@ been
 created
 necause
 of
+implicatl<U+FB01>n,
 and
 because
 of
@@ -725,6 +726,7 @@ Electronlc
 and
 from
 the
+AFL<U+2019>CID.
 51
 may
 be
@@ -1143,6 +1145,7 @@ panels.
 ISSUES
 umm
 RIGHT
+TI<U+2018>
 Know
 As
 prev
@@ -2297,6 +2300,7 @@ press
 release;
 on
 water
+lssues,<U+2019>
 suggested
 questlons
 and
@@ -2305,7 +2309,7 @@ for
 medla
 ntervlews;
 VldeO
-<U+62E2>11m
+<U+00A3>11m
 Clips.
 51mm
 packages
@@ -2749,6 +2753,7 @@ CMA'S
 communlcatlons
 effort.
 The
+Du<U+2019>ont
 Company's
 1ntroductory
 sesslon
@@ -3036,7 +3041,7 @@ Need
 to
 Know,"
 27>>j7m1nute
-<U+62E2>11m
+<U+00A3>11m
 developed
 1n
 19.2
@@ -3073,7 +3078,7 @@ part
 Need
 to
 Know"
-<U+62E2>11m
+<U+00A3>11m
 package;
 "Abandoned
 Waste
@@ -3128,7 +3133,7 @@ statlons.
 21*m1nute,
 15
 mm.
-<U+62E2>11m
+<U+00A3>11m
 on
 the
 onijob
@@ -3152,11 +3157,11 @@ of
 promotlon
 of
 the
-<U+62E2>11m,
+<U+00A3>11m,
 total
 of
 559
-<U+62E2>11m
+<U+00A3>11m
 have
 been
 to
@@ -3204,7 +3209,7 @@ and
 Videotapes
 of
 the
-<U+62E2>11m.
+<U+00A3>11m.
 "The
 Chemlcal
 Balance"
@@ -3223,6 +3228,7 @@ natlun
 and
 management
 of
+<U+FB01>re
 copy
 of
 the

@@ -19,7 +19,6 @@ Subcommltt
 e
 Judlclary
 Commlttee
-Li<U+9225><U+6A9A>:
 contlnue
 durlng
 thls
@@ -56,7 +55,7 @@ hearlngs
 t
 a
 System,
-<U+7984>5
+<U+00BB>5
 mm
 1ndustry,
 stry

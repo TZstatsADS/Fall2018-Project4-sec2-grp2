@@ -371,6 +371,7 @@ energy
 conservatlon
 pro-ram.
 e55
+Issue<U+201C>.
 members
 have
 Vital
@@ -620,7 +621,7 @@ Board
 of
 Dlrectors.
 the
-Presldent<U+9225><U+FFFD>
+Presldent<U+201D>
 for
 flnal
 approval
@@ -1184,7 +1185,7 @@ COMMITTEE
 ACTIVITIES
 IN
 1995
-Trad<U+9225><U+FFFD>
+Trad<U+201C>
 No
 -ous
 was
@@ -1458,7 +1459,7 @@ Executlve
 5
 mary
 Internatlon.l
-Trad<U+9225><U+FFFD>
+Trad<U+201C>
 INTERNATIDNL
 TRADE
 AND
@@ -1987,6 +1988,7 @@ to
 the
 current
 trade
+<U+FB02>ew
 trade
 15
 llkely

@@ -1023,7 +1023,7 @@ Park
 Avenue
 New
 York.
-IDDX<U+9225><U+696D>
+IDDX<U+2018>I
 Mr.
 Willlam
 Newbury

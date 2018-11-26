@@ -323,7 +323,7 @@ ten
 1ndustr1es
 51:
 codes,
-1dent1<U+62E2>1ed
+1dent1<U+00A3>1ed
 early
 year.
 Not
@@ -918,6 +918,7 @@ to
 near
 1973
 levels.
+Postilg<U+2018>la
 energy
 demand
 15
@@ -1311,7 +1312,7 @@ the
 half
 of
 1975.
-Postilg<U+9225><U+69A3>
+Postilg<U+2018>l
 sales
 growth
 FEA

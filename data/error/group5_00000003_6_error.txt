@@ -31,7 +31,7 @@ unprovlng
 currently
 preparlng
 actlvlty
-<U+9225><U+FFFD>
+<U+2018>
 revlslons
 determlnlng
 deflnlt
@@ -182,7 +182,6 @@ by
 by
 D.
 (DiLA)
-<U+9225><U+6DD7>m
 w.
 j.
 "Ellly"
@@ -318,7 +317,7 @@ a
 publlc
 by
 servlce
-0.5.<U+7984>
+0.5.<U+00BB>
 cm
 arrlved
 enforceablllty
@@ -431,7 +430,7 @@ by
 antltrust
 m
 collectlvely
-<U+9225><U+FFFD>
+<U+2018>
 A
 prlclng
 Marltlme
@@ -597,7 +596,7 @@ revlewlng
 rulemaklng.
 Fossll
 Synthetlc
-<U+9225><U+FFFD>
+<U+2018>
 submltted
 substantlve
 m
@@ -623,7 +622,7 @@ Synthetlc
 Subcommlttee
 thp
 R.
-<U+9225><U+FFFD>371<U+9225><U+FFFD>,<U+9225><U+FFFD>
+<U+201D>371<U+201C>,<U+201D>
 overslght
 hearlngs
 presently
@@ -632,7 +631,7 @@ Pollcy
 (NGPA7
 restrlctlons
 1D7K57227
-<U+9225><U+6EBE>€<U+FFFD>71:<U+9225><U+FFFD>,47
+<U+201C><U+2018>71:<U+201C>,47
 a
 restralnts
 m
@@ -703,7 +702,6 @@ c.
 a
 exclse
 P.
-<U+9225><U+6DD7>m
 a
 e
 exclse
@@ -744,7 +742,6 @@ partlcular,
 Connlsslon
 D
 h
-mum<U+9225><U+FFFD>;
 hlghiprlced
 adntlon
 wrltten
@@ -807,7 +804,7 @@ demonstrated
 a
 credlble
 cmv
-<U+7984>
+<U+00BB>
 posltlon
 leglslatlon
 polnts:
@@ -835,7 +832,6 @@ m
 a
 t
 e
-171<U+9225><U+6A9A><U+9225><U+FFFD>
 "tltle
 addltlon.
 by

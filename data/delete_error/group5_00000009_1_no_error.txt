@@ -1443,7 +1443,7 @@ were:
 Approved
 51x
 to
-<U+62E2>111
+<U+00A3>111
 Vacancles
 on
 Varlous
@@ -1657,7 +1657,7 @@ Sella
 presented
 nomlnatlon
 to
-<U+62E2>111
+<U+00A3>111
 Vacancy
 on
 the
@@ -2108,7 +2108,7 @@ of
 the
 specmens
 or
-<U+94FF><U+4E74>led
+<U+FB01>lled
 531d
 Bank
 the

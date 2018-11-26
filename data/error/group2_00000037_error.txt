@@ -170,7 +170,7 @@ thls
 Colrmlttee
 actlvlty,
 heavlly
-t<U+9225><U+FFFD>
+t<U+201C>
 a
 v.5.
 1ndustry,
@@ -186,7 +186,7 @@ swlng.
 my
 contlnue
 a
-<U+9225><U+FFFD>41.5.
+<U+201C>41.5.
 w.
 attemptlng
 thls

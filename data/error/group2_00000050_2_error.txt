@@ -17,9 +17,7 @@ m
 protectlng
 1::
 publlc
-suggested.<U+9225><U+FFFD>
 a
-subject,<U+9225><U+FFFD>
 'Quallfle
 perspectlve,
 perspectlve
@@ -75,7 +73,6 @@ whlch
 apply
 1ndustrlal
 quallty
-polley,<U+9225><U+FFFD>
 a
 commlttees"
 whlch
@@ -953,7 +950,6 @@ a
 d
 flrst
 technlcal
-1nfon<U+9225><U+6A94>at
 applled]
 posltlons
 leglslatlve
@@ -1040,7 +1036,6 @@ by
 Commlttee
 m
 advlsable
-5<U+9225><U+651C>5
 commlttee
 llmlted
 mm
@@ -1154,7 +1149,7 @@ v.5.
 v.5.
 publlc."
 cm
-L;<U+9225><U+FFFD>
+L;<U+2014>
 e
 prellmlnary
 u.

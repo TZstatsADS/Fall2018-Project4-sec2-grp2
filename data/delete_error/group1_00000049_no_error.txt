@@ -746,6 +746,7 @@ broad
 scope
 of
 the
+Hartke<U+FB01>surke
 measure
 2592mm.
 109147,
@@ -755,6 +756,7 @@ attentlon
 of
 several
 MCA
+committees<U+FB01>monomc
 Revlew,
 Tax
 Internatlonal
@@ -953,7 +955,7 @@ he
 that
 the
 new
-source<U+9225><U+FFFD>
+source<U+201D>
 is
 properly
 operated,

@@ -153,7 +153,7 @@ Defense
 (mum
 has
 now
-<U+94FF><U+4E74>led
+<U+FB01>lled
 5m:
 the
 extenslon.
@@ -664,7 +664,7 @@ chemcakspemnc
 health
 CMA'S
 comments
-1dent1<U+62E2>1ed
+1dent1<U+00A3>1ed
 concerns
 and
 several
@@ -755,7 +755,7 @@ Management
 Task
 Group
 has
-1dent1<U+62E2>1ed
+1dent1<U+00A3>1ed
 several
 serlous
 flaws
@@ -1157,6 +1157,7 @@ Hazard
 Assessment
 Task
 Group,
+CD<U+2019>sponsored
 conference
 1n
 November
@@ -1198,7 +1199,7 @@ on
 December
 20,
 1935,
-<U+94FF><U+4E74>led
+<U+FB01>lled
 comments
 on
 the
@@ -1777,6 +1778,7 @@ promote
 More
 Senators
 Durenburger
+<U+201D>Ham
 and
 Baucus
 1ntroduced
@@ -2249,7 +2251,7 @@ the
 1nc1dence
 of
 dlsease
-causatlor<U+94FF><U+FFFD>
+causatlor<U+FB02>
 would
 impose
 even

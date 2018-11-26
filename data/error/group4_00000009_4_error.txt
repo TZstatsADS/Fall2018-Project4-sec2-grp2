@@ -7,7 +7,7 @@ v.5.
 A
 by
 publlc
-leglslatlon.<U+9225><U+FFFD>
+leglslatlon.<U+2019>
 thls
 1:
 crltlcal.
@@ -202,7 +202,6 @@ dlstrlcts.
 Hlth
 contlnuas
 1:
-three<U+94FF><U+4FF7>lnute
 dlstrlbuted
 m
 a
@@ -299,7 +298,6 @@ mm
 costiefflclency.
 Actlvltles
 mm
-flve<U+94FF><U+4FF7>lnute
 televlslon
 by
 estlmated
@@ -581,7 +579,6 @@ conslstently
 1ncreaslng
 actlvlty.
 a
-three<U+94FF><U+4FF7>lnute
 dlstrlbuted
 e
 televlslon
@@ -709,7 +706,7 @@ a
 twoithlrds
 meetlngs
 durlng
-twelve<U+94FF><U+FFFD>'nonth
+twelve<U+FB02>'nonth
 A
 conslst
 a

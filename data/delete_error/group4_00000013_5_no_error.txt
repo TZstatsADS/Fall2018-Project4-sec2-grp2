@@ -121,6 +121,7 @@ staffs
 speclal
 1n
 Superfund
+155<U+201C>:
 have
 been
 recrulted
@@ -359,9 +360,9 @@ new
 waste
 slte
 cleanup
-<U+62E2>11m.
+<U+00A3>11m.
 The
-<U+62E2>11m
+<U+00A3>11m
 will
 document
 progress
@@ -1664,7 +1665,7 @@ report
 has
 not
 been
-<U+94FF><U+4E74>led
+<U+FB01>lled
 and
 rul
 has
@@ -2223,7 +2224,7 @@ Tuesday,
 17
 1n
 Toronto.
-Canad<U+9225><U+FFFD>
+Canad<U+201C>
 The
 chosen
 the
@@ -2302,7 +2303,7 @@ AGREEMENT
 Representatlve
 Thomas
 Downey
-<U+9225><U+FFFD>7um
+<U+201D>7um
 1ntroduced
 53777
 1n
@@ -2351,6 +2352,7 @@ Although
 Senat-r
 John
 Danforth
+<U+201D>Ham
 had
 1ntentlon"
 of
@@ -2687,6 +2689,7 @@ of
 these
 cause
 member
+<U+FB01>lms
 5
 1njury
 1n
@@ -2828,6 +2831,7 @@ been
 he
 Representatlve
 Pease
+(Dro<U+FB02>rln
 has
 1ntroduced
 513.7
@@ -2948,6 +2952,7 @@ that
 only
 51mple
 mu
+Signi<U+FB01>cant
 amendments
 will
 be
@@ -3604,6 +3609,7 @@ clalms
 to
 only
 that
+1nfon<U+2019>nat
 on
 truly
 CMA
@@ -5213,7 +5219,7 @@ STATE
 AFF
 COMMITTEE;
 woman:
-DERWA<U+9225><U+696D>
+DERWA<U+2018>I
 Members
 0
 the
@@ -6123,7 +6129,7 @@ CMA
 Haz.
 dons
 materlals
-transporter<U+9225><U+FFFD>
+transporter<U+201C>
 no
 origin
 or

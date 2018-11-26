@@ -317,6 +317,7 @@ Sectlon
 112
 again.
 Tauzln
+CD<U+2019>sponsored
 Congressman
 Jams
 Florlo
@@ -2446,7 +2447,7 @@ TSCA:
 GAD
 sway
 mus
-UNDERWA<U+9225><U+696D>
+UNDERWA<U+2018>I
 Congressman
 'lorlo
 requested
@@ -4607,6 +4608,7 @@ be
 taped
 for
 1ntervlews.
+flve<U+FB02>nlnute
 and
 209
 radlo

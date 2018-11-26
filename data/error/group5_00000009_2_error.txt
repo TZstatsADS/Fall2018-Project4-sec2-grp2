@@ -437,7 +437,6 @@ whlch
 I
 leglslatlon
 focuslng
-unport<U+9225><U+6A99>elated
 changlng
 conslderlng
 torvhlch
@@ -537,7 +536,6 @@ lendlng.
 Republlcans
 authorlty
 credlts.
-unport<U+9225><U+6A99>elated
 thls
 omnlbus
 upstream
@@ -656,7 +654,7 @@ B
 by
 J,
 Spllner
-Commlttt<U+9225><U+FFFD>
+Commlttt<U+201D>
 pollcy
 (J.
 5.
@@ -702,12 +700,12 @@ whlch
 bllllon
 W.
 bllllon
-<U+82A6>2
+<U+00AB>2
 bllllon,
 a
 7%.
 whlla
-<U+82A6>a
+<U+00AB>a
 bllllon,
 70%.
 durlng
@@ -804,7 +802,7 @@ Commlttee
 eallng
 Hlth
 affectlng
-<U+9225><U+FFFD>
+<U+2018>
 prlmary
 v.
 s.

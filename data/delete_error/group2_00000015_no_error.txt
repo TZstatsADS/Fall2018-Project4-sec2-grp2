@@ -5,6 +5,7 @@ OF
 GOVERNMENT
 RELATIONS
 WILLIAM
+sTov<U+2018>ER
 MAY
 11,
 1975
@@ -650,6 +651,7 @@ House
 Interstate
 pected
 to
+<U+FB01>lls
 the
 report
 the
@@ -736,7 +738,7 @@ for
 the
 markup.
 The
-Hons<U+9225><U+FFFD>
+Hons<U+201C>
 Interstate
 and
 Forelgn

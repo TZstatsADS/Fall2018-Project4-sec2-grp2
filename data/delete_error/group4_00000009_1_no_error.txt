@@ -1257,7 +1257,7 @@ development
 of
 of
 has
-1dent1<U+62E2>1ed
+1dent1<U+00A3>1ed
 about
 12
 major
@@ -1774,7 +1774,7 @@ attentlon
 devoted
 to
 Safety
-155<U+9225><U+FFFD>
+155<U+201C>
 5
 represent
 substantlal

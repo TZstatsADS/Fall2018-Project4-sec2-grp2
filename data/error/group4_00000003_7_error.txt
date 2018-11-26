@@ -77,14 +77,12 @@ ethylene
 jurlsdlclon.
 1:
 a
-<U+94FF><U+4E74>ls
 a
 DC
 Dlstrlct
 thls
 1,
 dld
-<U+94FF><U+4E74>ls
 a
 d
 Hlth
@@ -92,7 +90,6 @@ a
 commltted
 Industry
 contrlbutlon
-<U+94FF><U+4E6B>e
 Valldlty
 dlmlnlsh
 mmp
@@ -266,10 +263,9 @@ a
 testlcular
 cm
 cm
-<U+9225><U+FFFD>
+<U+2018>
 0F
 .
-sTov<U+9225><U+6968>R
 publlc
 recently
 ellmlnate
@@ -460,7 +456,6 @@ Envlronment
 Publlc
 Commlttee
 Commlttee
-mp<U+9225><U+FFFD>
 leglslatlon
 Hlth
 prlnclples
@@ -544,7 +539,7 @@ Backgrou
 d
 t
 malllngs.
-<U+9225><U+FFFD>
+<U+2018>
 PoLICy
 a
 lstrator
@@ -561,7 +556,6 @@ worklng
 a
 Pollcy
 cm
-<U+94FF><U+4E74>ed
 a
 leglslaton
 a
@@ -578,7 +572,7 @@ mm
 lstrator
 pollcy
 <
-<U+9225><U+FFFD>
+<U+2018>
 Publlc
 Commltte-
 3.x.
@@ -590,7 +584,7 @@ u
 a
 achlevlng
 (BAT).
-Commltte<U+9225><U+FFFD>.
+Commltte<U+2018>.
 followlng
 Hlth
 :
@@ -695,7 +689,6 @@ nt
 thn
 crltlzed
 by
-<U+9225><U+6EFA>m
 9.
 cm
 a
@@ -770,7 +763,7 @@ actlvlt
 .
 a
 a
-t<U+7984>
+t<U+00BB>
 Hlth
 Portlllo
 Mlnlster
@@ -997,7 +990,6 @@ by
 Testlfyng
 mm
 Martln
-<U+9225><U+6DD7>am.
 Mlchael
 Brooklngs'
 Mlller.
@@ -1074,7 +1066,6 @@ a
 cm
 preparlng
 :9
-<U+94FF><U+4E74>ls
 a
 t
 t
@@ -1110,7 +1101,7 @@ leadershlp
 asslsted
 5.
 by
-(R7NeV<U+9225><U+FFFD>7.
+(R7NeV<U+2014>7.
 consldered
 a
 prlni
@@ -1148,7 +1139,6 @@ d
 :-
 thls
 5.
-(Mathlas<U+94FF><U+4FF0>ide
 3.x.
 (Kastlnmeleriljivhsd
 Th
@@ -1176,7 +1166,6 @@ smgle
 .5
 Hlthln
 (s.
-Dole<U+94FF><U+4FF0>ikansJ.
 by
 Judlclary
 Commlttee

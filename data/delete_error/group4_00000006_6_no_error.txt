@@ -73,7 +73,7 @@ lsophorone.
 The
 Program
 Panel
-<U+94FF><U+4E74>led
+<U+FB01>lled
 comments
 1n
 response
@@ -494,6 +494,7 @@ and
 Senate
 Budget
 Chalrman
+<U+201C>Hm
 emphaslzed
 these
 changes
@@ -1301,7 +1302,7 @@ major
 concerns
 the
 package.
-F1rst<U+9225><U+FFFD>
+F1rst<U+201D>
 does
 not
 address
@@ -1571,7 +1572,7 @@ June
 11,
 the
 Works
-report<U+9225><U+FFFD>
+report<U+201D>
 5307
 changes
 to
@@ -2061,7 +2062,7 @@ Gore
 (DiTennJ
 and
 Waxman
-mica<U+7984>
+mica<U+00BB>
 held
 jolnt
 on
@@ -2196,7 +2197,7 @@ report
 called
 trlal
 not
-<U+62E2>11m
+<U+00A3>11m
 Clips
 showed
 her
@@ -2892,7 +2893,7 @@ inequities
 caused
 Volumns
 of
-prams<U+9225><U+FFFD>
+prams<U+201C>
 gas
 1n
 the
@@ -3382,7 +3383,7 @@ but
 charges
 hav
 been
-<U+94FF><U+4E74>led
+<U+FB01>lled
 number
 of
 products.

@@ -186,7 +186,7 @@ completed
 when
 comments
 were
-<U+94FF><U+4E74>led
+<U+FB01>lled
 1n
 September,
 1932.
@@ -559,7 +559,7 @@ on
 CMA
 member
 companles,
-155<U+9225><U+FFFD>
+155<U+201C>
 5
 Will
 be
@@ -633,7 +633,7 @@ ADVISORY
 COMMITTEE
 EXECUTIVE
 SUMMARY
-Th<U+82A6>
+Th<U+00AB>
 Chemlcal
 Regulatlons
 (mum
@@ -769,7 +769,7 @@ program
 15
 well
 many
-<U+94FF><U+4E74>led
+<U+FB01>lled
 on
 CMA'S
 fom,
@@ -1007,7 +1007,7 @@ resources
 beyond
 TSCA,
 as
-necessary<U+9225><U+FFFD>
+necessary<U+201C>
 to
 moot
 the

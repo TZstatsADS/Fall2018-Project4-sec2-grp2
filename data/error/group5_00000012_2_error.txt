@@ -596,7 +596,7 @@ BFGoodrlch
 Dccldental
 &
 Harshaw/Flltrol
-<U+62E2>1
+<U+00A3>1
 Malllnckrodt.
 Merlchem
 NL

@@ -1829,7 +1829,7 @@ many
 1mplementatlon
 procedures
 were
-1dent1<U+62E2>1ed
+1dent1<U+00A3>1ed
 as
 ways,
 among
@@ -2061,7 +2061,7 @@ control
 1nspectlon
 and
 training
-programs<U+9225><U+FFFD>
+programs<U+201D>
 1nventory
 process
 Characterlze
@@ -2654,7 +2654,8 @@ The
 House
 b111,
 although
-<U+62E2>1115
+51ml<U+201C>,
+<U+00A3>1115
 1n
 that
 and

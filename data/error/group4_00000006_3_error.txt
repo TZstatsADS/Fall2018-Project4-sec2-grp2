@@ -165,7 +165,7 @@ actlvltles;
 thls
 communlcatlons*related
 lngredlent
-<U+62E2><U+63B3><U+62E2>us.
+<U+00A3><U+00B0><U+00A3>us.
 1ndustry
 conslderable
 polltlcal
@@ -481,7 +481,7 @@ thls
 Hlth
 I
 envlronmental
-<U+82A6>
+<U+00AB>
 a
 Vc
 Envlronmental
@@ -494,7 +494,6 @@ envlronmental
 1ndustry.
 t..."yne
 Jaeschke,
-the<U+9225><U+69B6>ear
 thls
 .
 a
@@ -533,7 +532,6 @@ addltlon
 t
 mm
 vltb
-all<U+9225><U+FFFD>;
 mm
 .
 cm
@@ -785,7 +783,6 @@ leglslatlve
 vlth
 cm
 mm
-make<U+94FF><U+5006>p
 presently
 swlnglng
 upstream.
@@ -834,7 +831,7 @@ addltlon
 iSSuES,
 Hlth
 dlsposal
-A11<U+9225><U+FFFD>
+A11<U+201C>
 Quallty
 revlslted
 Implementatlon...wlll

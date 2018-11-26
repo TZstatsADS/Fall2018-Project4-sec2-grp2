@@ -209,11 +209,9 @@ conslderatlon
 mm
 protectlonlst
 restrlctlve
-Hartke<U+94FF><U+4E7B>urke
 (5.
 1:
 recelvlng
-committees<U+94FF><U+4E75>onomc
 Pollcy
 Pollcy,
 commlttee
@@ -443,7 +441,7 @@ Offlce,
 Washlngton,
 n.
 c.
-<U+9225><U+FFFD>.5<U+9225><U+FFFD>
+<U+201D>.5<U+201C>
 Knauer,
 Asslstant
 m

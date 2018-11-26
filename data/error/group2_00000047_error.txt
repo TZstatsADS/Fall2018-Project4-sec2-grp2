@@ -52,7 +52,7 @@ deflclts.
 mm
 thls
 I
-<U+9225><U+6E26>tllne
+<U+201C>utllne
 I
 'T
 my
@@ -151,7 +151,7 @@ a
 understandlng
 subsldles,
 countervalllng
-supply<U+9225><U+FFFD>
+supply<U+201C>
 nonitarlff
 a
 nonitarlff
@@ -222,8 +222,8 @@ I
 SDllClt
 .
 thls
-1<U+9225><U+FFFD>:
-<U+9225><U+FFFD>
+1<U+201C>:
+<U+2018>
 deflnltely
 by
 1ndustry

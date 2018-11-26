@@ -533,6 +533,7 @@ to
 DOE
 1n
 3
+l2<U+2019>page
 booklet.
 In
 the
@@ -654,6 +655,7 @@ DIRECTOR
 OF
 RELATIONS
 WILLIAM
+sTov<U+2018>ER
 NOVEMBER
 1979
 ADMINISTRATION
@@ -674,6 +676,7 @@ appeal
 on
 contalned
 three
+elements<U+201C>.
 Voluntary
 wagejorlce
 program
@@ -1630,6 +1633,7 @@ the
 The
 second
 would
+double<U+FB01>iuty
 fund
 for
 malntenance
@@ -2599,7 +2603,7 @@ January
 1979
 Reflnery
 Crude
-Costs<U+9225><U+FFFD>
+Costs<U+201D>
 1cont1nued7
 Crude:
 Proportlon
@@ -3271,6 +3275,7 @@ as
 Jamle
 (Dims)
 ucceeds
+431<U+2019>s<U+201D>
 Veteran
 George
 Manon
@@ -3299,6 +3304,7 @@ give
 Chalmani
 of
 the
+Labori<U+FB02>EW
 has
 ju
 over
@@ -3606,6 +3612,7 @@ to
 .ecome
 top
 Ruppe's
+<U+201C>Hm
 retlrement
 one
 proponent
@@ -3730,6 +3737,7 @@ James
 retlrement
 and
 Robert
+<U+201C>Hm
 defeat
 opens
 he

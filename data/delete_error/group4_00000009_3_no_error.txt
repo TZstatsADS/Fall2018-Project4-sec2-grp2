@@ -304,7 +304,7 @@ lsports
 world
 swinging
 toward
-nor<U+9225><U+FFFD>
+nor<U+201C>
 tha
 of
 CMA'S
@@ -2993,7 +2993,7 @@ as
 much
 as
 Superfund.
-Remember<U+9225><U+FFFD>
+Remember<U+201D>
 the
 reductlon
 1n

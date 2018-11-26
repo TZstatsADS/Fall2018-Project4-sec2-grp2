@@ -4,6 +4,7 @@ DIRECTOR
 OF
 RELATIONS
 WILLIAM
+sTov<U+2018>ER
 APRIL
 12,
 1977
@@ -396,6 +397,7 @@ program
 to
 weatherlze
 homes,
+performance<U+FB01>aase
 codes
 for
 new
@@ -692,6 +694,7 @@ of
 CED'S,
 and
 employees
+infoz<U+2018>nk
 atlon
 7
 speech
@@ -792,7 +795,7 @@ March
 the
 Senate
 Flnance
-<U+94FF><U+4E74>led
+<U+FB01>lled
 the
 report
 on
@@ -917,7 +920,7 @@ new
 jobs
 credlt
 somewhat
-51ml<U+9225><U+FFFD>
+51ml<U+201C>
 the
 one
 1n
@@ -1363,6 +1366,7 @@ mus
 have
 some
 The
+Senate<U+FB01>alll
 would
 provlde
 an

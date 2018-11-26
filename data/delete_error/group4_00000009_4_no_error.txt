@@ -90,7 +90,7 @@ tratlon
 will
 prepare
 1n
-area<U+9225><U+FFFD>
+area<U+201D>
 Although
 Treasury
 rec*
@@ -268,7 +268,7 @@ new
 for
 the
 We
-<U+94FF><U+4E74>led
+<U+FB01>lled
 an
 5mm
 brlef
@@ -798,6 +798,7 @@ REPORT.
 3
 serles
 of
+three<U+FB02>nlnute
 newsfeatures
 blweekly
 1,500
@@ -1076,7 +1077,7 @@ Know...
 CMA'S
 15
 ma.
-<U+62E2>11m
+<U+00A3>11m
 on
 hazardous
 waste
@@ -1112,7 +1113,7 @@ nearly
 for
 the
 two
-<U+62E2>11m:
+<U+00A3>11m:
 are
 more
 than
@@ -1160,6 +1161,7 @@ last
 year
 1ncluded
 en
+flve<U+FB02>nlnute
 and
 209
 radlo
@@ -2115,6 +2117,7 @@ broadcasts
 regular
 serles
 of
+three<U+FB02>nlnute
 radlo
 features
 dedlcated

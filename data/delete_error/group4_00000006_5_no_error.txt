@@ -1020,6 +1020,7 @@ eni
 Assessment
 for
 Complex
+Effluents,<U+201C>
 held
 August
 22727,
@@ -1177,7 +1178,7 @@ of
 chemlcal
 1nformatlon.
 July
-29<U+5784>
+29<U+00A2>
 comments
 to
 EPA
@@ -1208,7 +1209,7 @@ to
 Sectlon
 4
 August
-<U+94FF><U+4E74>led
+<U+FB01>lled
 comments
 on
 EPA'S
@@ -1629,7 +1630,7 @@ ultd
 to
 government
 agencles.
-don<U+9225><U+FFFD>
+don<U+201C>
 BIOMEDICAL
 AND
 ENVIRONMENTAL
@@ -1640,7 +1641,7 @@ on
 inorganlc
 arsenlc
 were
-<U+94FF><U+4E74>led
+<U+FB01>lled
 OSHA
 on
 June
@@ -1775,7 +1776,7 @@ June
 the
 leromlde
 Panl
-<U+94FF><U+4E74>led
+<U+FB01>lled
 comi
 ments
 on
@@ -1791,7 +1792,7 @@ the
 Health
 'esearch
 Group
-<U+94FF><U+4E74>led
+<U+FB01>lled
 notlons
 for
 summary
@@ -1845,7 +1846,7 @@ the
 sterllant
 lee
 EPA
-<U+94FF><U+4E74>led
+<U+FB01>lled
 an
 1n
 New
@@ -1967,7 +1968,7 @@ The
 sate
 of
 curr-nt
-knowledge<U+9225><U+FFFD>
+knowledge<U+201C>
 the
 of
 results

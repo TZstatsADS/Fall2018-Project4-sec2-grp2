@@ -758,6 +758,7 @@ true
 story.
 1nvolves
 Burt
+Talent<U+201C>;
 3
 sevenitem
 member
@@ -860,6 +861,7 @@ Your
 must
 be
 'the
+people<U+201C>.
 There
 15
 no

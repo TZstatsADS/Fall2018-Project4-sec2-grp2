@@ -127,7 +127,7 @@ Sixty
 days
 thereafter.
 Acld.
-<U+94FF><U+4E74>led
+<U+FB01>lled
 petition
 for
 revlew
@@ -644,7 +644,7 @@ The
 brlef
 Will
 be
-<U+94FF><U+4E74>led
+<U+FB01>lled
 1n
 January.
 An
@@ -1785,7 +1785,7 @@ contacted
 the
 Belglum
 for
-1dent1<U+62E2>1catlon
+1dent1<U+00A3>1catlon
 of
 the
 cultures.
@@ -1994,7 +1994,7 @@ Flnance.
 In
 the
 lssues
-1dent1<U+62E2>1ed
+1dent1<U+00A3>1ed
 1n
 the
 House
@@ -2028,7 +2028,7 @@ amendments
 on
 the
 lssues
-1dent1<U+62E2>1ed
+1dent1<U+00A3>1ed
 1n
 the
 House
@@ -3180,6 +3180,7 @@ one
 more
 day
 us.
+193.51<U+201C>
 saw
 remarkable
 communlcatlons

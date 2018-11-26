@@ -269,7 +269,6 @@ whlch
 publlshed
 entlre
 membershlp.
-<U+9225><U+6EFB>n
 publlc
 dlscuss
 toplcs.
@@ -530,7 +529,7 @@ a
 a
 CommlttEE,
 a
-andithe*SeerefcaipyTireais<U+94FF><U+5006>infT
+andithe*SeerefcaipyTireais<U+FB02>zinfT
 Offlcers
 by
 mg
@@ -570,7 +569,7 @@ condltlons
 A550*
 a
 Hlth
-andifrhallimalnfchmiaip.<U+9225><U+6F03>opsiFi<U+9225><U+FFFD>.r<U+82A6>7c<U+82A6>wdie<U+62E2>all
+andifrhallimalnfchmiaip.<U+201D>PopsiFi<U+201D>.r<U+00AB>7c<U+00AB>wdie<U+00A3>all
 *anddziontirlbutlon757
 meetlngs
 meetlngs.
@@ -587,7 +586,7 @@ SeeFetairiyiTreasurer?
 Artlcle
 9.
 Offlcers
-SeoretagyTireais<U+94FF><U+5006>iriri,
+SeoretagyTireais<U+FB02>ziriri,
 offlcers
 a
 thls
@@ -625,7 +624,6 @@ Leglslatlve
 a
 m
 repeatlng
-hex<U+9225><U+FFFD>.
 reortlng.
 1:
 thls
@@ -647,7 +645,7 @@ mm
 faclng
 DDNLEY
 t
-<U+9225><U+FFFD>:
+<U+2014>:
 strlct
 (Premanufacturlng
 rocesslng
@@ -697,7 +695,6 @@ contendlng
 hlgh.
 m
 :9
-<U+94FF><U+4E74>ls
 a
 slmllar
 515E

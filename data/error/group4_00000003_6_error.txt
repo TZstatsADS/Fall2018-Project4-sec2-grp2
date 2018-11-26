@@ -167,7 +167,6 @@ Vlnylldene
 PDLYSAR
 u
 pnouums
-IQU<U+9225><U+6968>S
 REICHHDLD
 camrcALs
 Reslns
@@ -176,7 +175,6 @@ RDHM
 Vlnylldene
 u
 RUEICDN
-SALSBU<U+9225><U+697B>Y
 L
 Allyl
 Hydroxytoluene,
@@ -192,7 +190,7 @@ Dlthlophosph.tes,
 cm
 Ethylene
 K
-CHLRIN<U+9225><U+6968>
+CHLRIN<U+2018>E
 Acrylonltrll-,
 y
 Ethylene
@@ -208,7 +206,7 @@ PETRDLE
 .
 pnmchs
 Styrene
-TECKNDR<U+9225><U+6A5D>PEX
+TECKNDR<U+2019>APEX
 Phthalate
 Ea
 Acrylonltrll,
@@ -528,7 +526,7 @@ m
 contlnue
 Hlth
 thls
-<U+9225><U+FFFD>
+<U+2018>
 pmsmc
 ~st<
 a

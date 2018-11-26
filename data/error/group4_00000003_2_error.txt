@@ -335,7 +335,7 @@ flghtlng
 mm
 whlch
 llghtlng
-state<U+94FF><U+4E64>y<U+9225><U+6A9A>tate
+state<U+FB01>ay<U+2019>state
 rlght
 '50:,
 representlng

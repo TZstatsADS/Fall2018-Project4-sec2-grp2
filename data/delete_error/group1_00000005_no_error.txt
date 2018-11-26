@@ -27,6 +27,7 @@ was
 learned
 that
 the
+AFL<U+2019>CID
 planned
 to
 attempt
@@ -48,7 +49,7 @@ Means
 Co
 tee
 Chalrman
-(DrArk<U+9225><U+64EC>
+(DrArk<U+2014>M
 the
 House
 and
@@ -411,6 +412,7 @@ reach
 conference
 before
 Easter.
+HDUSE<U+2019>SENATE
 CONFERENCE.
 approved
 that
@@ -448,7 +450,7 @@ measure
 generally
 prevalled,
 broaden?
-EEDC<U+9225><U+697D>
+EEDC<U+2018>S
 purvlew
 to
 government
@@ -564,6 +566,7 @@ that
 affected
 companles
 thelr
+opposumn<U+FB02>parmcularly
 to
 members
 of
@@ -864,7 +867,7 @@ bags
 made
 of
 chlorlde
-<U+62E2>11m,
+<U+00A3>11m,
 and
 Observances
 of
@@ -1094,7 +1097,7 @@ Infomatlon,
 and
 15
 malled
-<U+94FF><U+4E7A>esioficharge
+<U+FB01>resioficharge
 to
 some
 9000
@@ -1231,6 +1234,7 @@ MCA
 Centennlal,
 Will
 be
+<U+20AC>07
 sponsored
 the
 Assoclatlon
@@ -1301,6 +1305,7 @@ the
 Massachusetts
 of
 Technology.
+<U+201C>(Efficient
 Communlcatlon
 through
 Interpersonal

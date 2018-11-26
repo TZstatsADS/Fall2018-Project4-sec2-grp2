@@ -31,7 +31,7 @@ revlewed
 the
 con*
 cerns
-1dent1<U+62E2>1ed
+1dent1<U+00A3>1ed
 1n
 3
 recent
@@ -546,7 +546,7 @@ Bonsaisenate
 Conference
 and
 the
-<U+9225><U+6F30>otentlal
+<U+201D>potentlal
 areas
 of
 and
@@ -1074,7 +1074,7 @@ deficit
 Will
 be
 over
-5140431111<U+9225><U+FFFD>
+5140431111<U+201C>
 7
 7
 up
@@ -2154,6 +2154,7 @@ about
 trade
 I'm
 on
+unport<U+2019>related
 initiatives
 7
 7
@@ -2638,6 +2639,7 @@ mlxed
 The
 other
 major
+unport<U+2019>related
 lssue
 7
 7
@@ -3405,7 +3407,7 @@ Ac
 ass
 15
 also
-lau<U+7984>:
+lau<U+00BB>:
 owners
 of
 patents
@@ -3428,7 +3430,7 @@ the
 patent.
 In
 such
-cases<U+9225><U+FFFD>
+cases<U+201C>
 the
 patent
 owner
@@ -3447,7 +3449,7 @@ pruducer
 decldes
 to
 make
-there<U+9225><U+FFFD>
+there<U+201C>
 and
 15
 also
@@ -3474,7 +3476,7 @@ governments
 or
 1n-trumentallt1es
 harm
-exports<U+9225><U+FFFD>
+exports<U+201C>
 but
 301
 only
@@ -3519,9 +3521,9 @@ es
 of
 such
 agreements
-and<U+9225><U+FFFD>
+and<U+201C>
 where
-approprlate<U+9225><U+FFFD>
+approprlate<U+201D>
 has
 1n
 uded
@@ -3595,7 +3597,7 @@ dutyifree
 treatment
 of
 under
-651<U+7984>
+651<U+00BB>
 1n
 cases
 where
@@ -3666,7 +3668,7 @@ these
 and
 other
 lssues
-trade<U+9225><U+FFFD>
+trade<U+201C>
 the
 Co
 lttee's

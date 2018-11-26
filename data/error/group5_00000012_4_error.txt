@@ -111,7 +111,6 @@ ellmlnated
 reportlng
 .
 Competltlve
-Issue<U+9225><U+FFFD>.
 cm
 a
 affectlng
@@ -185,7 +184,7 @@ sppc
 months
 mm
 a
-.<U+9225><U+FFFD>
+.<U+2018>
 meetlng
 SDllClt
 pollcy
@@ -331,12 +330,12 @@ bllllon
 bllllon
 a
 I
-<U+9225><U+FFFD>
+<U+2018>
 Commlttee
 mmmnmuu
 HIGHLIGHTS
 nghllhts
-(contlnuef<U+94FF><U+FFFD>
+(contlnuef<U+FB02>
 mlscella
 tarlff
 mm
@@ -471,7 +470,7 @@ t
 Commlttee
 HIGHLIGHTS
 Actlvltles
-(contlnuef<U+94FF><U+FFFD>
+(contlnuef<U+FB02>
 Coordlnatln
 1ndustry
 by
@@ -546,7 +545,6 @@ hearlngs
 a
 v.5.
 deflclt.
-<U+94FF><U+4FE5>w
 leglslatl-n
 Neg-tlatlng
 Authorlty:
@@ -701,7 +699,7 @@ Dlspute
 Revlslons
 Prlnclples
 PRC
-13113:<U+9225><U+FFFD>.1
+13113:<U+201C>.1
 Prlnclples
 Practlces
 nghts
@@ -784,7 +782,7 @@ cy
 ovmwmw
 Envlroment7..
 a
-DEP'TM<U+9225><U+6968>NTAL
+DEP'TM<U+2018>ENTAL
 0F
 ovmwmw
 A.

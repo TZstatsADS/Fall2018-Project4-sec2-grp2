@@ -219,6 +219,7 @@ endorses
 the
 use
 of
+performance<U+FB01>aased
 11mm:
 and
 CMA
@@ -242,6 +243,7 @@ THE
 CHEMICAL
 ASSOCIATION
 GARY
+FU<U+2018>RMAN
 CHAIRMAN
 SEPTEMBER
 10,
@@ -830,6 +832,7 @@ for
 Avold
 any
 new
+energyitax<U+FB01>aased
 scheme.
 If
 such
@@ -984,6 +987,7 @@ not
 away
 at
 the
+<U+FB01>re
 market
 concept.
 In
@@ -1954,7 +1958,7 @@ example,
 1331
 Process
 Piping,
-Bl<U+8305>iFlanges,
+Bl<U+00E9>iFlanges,
 979
 AYS
 pumps,

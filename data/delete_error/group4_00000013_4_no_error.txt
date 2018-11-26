@@ -163,11 +163,12 @@ best
 1nformatlon
 avaliable.
 and
-51ml<U+9225><U+FFFD>
+51ml<U+201C>
 legal
 devlces
 are
 1ncompat1ble
+sclence<U+FB01>aased
 standards
 and
 are
@@ -193,7 +194,7 @@ Limitations;
 clalm
 should
 be
-<U+94FF><U+4E74>led
+<U+FB01>lled
 Within
 one
 year
@@ -664,7 +665,7 @@ COMMERCIAL
 pnouvcnou
 CHEMICALS
 TSCA
-<U+9225><U+6E1F>ummon
+<U+201C>summon
 OF
 RESEARCH
 AND
@@ -828,7 +829,7 @@ bemg
 Imported
 for
 and
-1dent1<U+62E2>1catlon.
+1dent1<U+00A3>1catlon.
 Even
 where
 the
@@ -1253,7 +1254,7 @@ The
 comments
 will
 be
-<U+94FF><U+4E74>led
+<U+FB01>lled
 June
 22,
 1934.
@@ -1521,6 +1522,7 @@ safety,
 and
 health
 lssues.
+BIPHEN<U+2018>ILS
 7
 The
 Panel
@@ -1619,7 +1621,7 @@ the
 Chlorlde
 Program
 Panel
-<U+94FF><U+4E74>led
+<U+FB01>lled
 comments
 EPA
 on
@@ -2595,7 +2597,7 @@ agreements.
 on
 May
 1934,
-<U+94FF><U+4E74>led
+<U+FB01>lled
 comments
 the
 ma

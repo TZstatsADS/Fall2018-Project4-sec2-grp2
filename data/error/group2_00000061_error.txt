@@ -196,7 +196,7 @@ W
 w
 contlnue
 &
-<U+9225><U+FFFD>
+<U+2018>
 W
 1dentlfy
 emerglng

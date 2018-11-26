@@ -1134,7 +1134,7 @@ fomal
 the
 recent
 CHA
-<U+62E2>11m
+<U+00A3>11m
 Up"
 was
 presented
@@ -1470,7 +1470,7 @@ Sella
 presented
 nomlnatlon
 to
-<U+62E2>111
+<U+00A3>111
 Vacancy
 on
 the
@@ -2194,7 +2194,7 @@ year
 an
 once
 agaln
-full<U+9225><U+FFFD>
+full<U+201C>
 diversified,
 and
 The
@@ -2203,7 +2203,7 @@ effec
 and
 successfully
 managed
-Matter<U+9225><U+FFFD>
+Matter<U+201D>
 before
 regu
 story

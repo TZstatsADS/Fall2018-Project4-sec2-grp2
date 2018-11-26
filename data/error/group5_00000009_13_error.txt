@@ -608,7 +608,7 @@ conslderatlon.
 Durlng
 flrst,
 by
-<U+9225><U+6EFA>m,
+<U+201D>Hm,
 whlch
 by
 a
@@ -662,7 +662,6 @@ descrlblng
 leavlng
 m
 dlscretlon
-51ml<U+9225><U+FFFD>,
 outllne
 llttle
 dlscretlon

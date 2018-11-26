@@ -2072,6 +2072,7 @@ have
 resulted
 1n
 reduced
+all<U+201C>,
 tar,
 and
 solld.
@@ -2167,6 +2168,7 @@ evaluatlon
 of
 data
 and
+ereo<U+FB01>.
 Communlcatlons
 of
 member
@@ -2174,7 +2176,7 @@ company
 and
 waste
 mums:
-1dent1<U+62E2>1catlon
+1dent1<U+00A3>1catlon
 of
 key
 perceptlons,
@@ -4232,7 +4234,7 @@ smum
 NCE
 of
 ANSI
-2129.<U+7984>
+2129.<U+00BB>
 The
 1997
 of
@@ -4555,7 +4557,7 @@ ems
 THE
 PUBLIC
 DEBT.
-<U+62E2>15
+<U+00A3>15
 ally
 pruent
 means

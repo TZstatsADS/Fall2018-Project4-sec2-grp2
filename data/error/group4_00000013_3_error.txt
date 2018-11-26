@@ -47,7 +47,6 @@ I
 :'I
 3.x.
 564D
-<U+9225><U+FFFD>51-27mm
 1ndustry
 1:
 3.x.
@@ -59,7 +58,6 @@ a
 a
 dry
 welght
-basls,<U+9225><U+FFFD>
 $5
 m
 $lSD/ST
@@ -445,7 +443,7 @@ a
 publlc
 publlc
 screenlng
-publMJ<U+9225><U+FFFD>
+publMJ<U+2019>
 causlng
 lllness
 a
@@ -734,7 +732,7 @@ admlnlstrators
 comprehenslve
 system
 o
-AFL<U+9225><U+6A5F>tD
+AFL<U+2019>CtD
 (Industrlal
 actlve
 a

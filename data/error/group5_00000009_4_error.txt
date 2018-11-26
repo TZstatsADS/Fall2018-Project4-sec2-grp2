@@ -66,7 +66,7 @@ recognlzed
 technlcal
 leglslatlve
 by
-<U+9225><U+FFFD>
+<U+2018>
 faclllty
 technlcal
 rlsk
@@ -80,7 +80,7 @@ prlnter
 compatlble
 mm
 g
-CED/<U+9225><U+699A>nlor
+CED/<U+2018>enlor
 Commltment
 .5
 mm
@@ -332,7 +332,7 @@ posltlon
 v.5.
 c
 slgnlflcantly
-2<U+9225><U+FFFD>,
+2<U+2018>,
 Commlttee
 1:
 hearlngs
@@ -418,13 +418,13 @@ Hearlng
 H.
 ostmn
 A.
-Prlce*W<U+9225><U+6516>erhouse
+Prlce*W<U+2014>terhouse
 Effectlve
 Industry.
 1.
 2.
 Transml-ted
-<U+9225><U+FFFD>
+<U+2018>
 (Asslstant
 pollcyy
 3.
@@ -582,7 +582,7 @@ leglslatlon.
 Coordlnaton
 Actlvltles
 Hlth
-1dent1<U+62E2>1c.tlon
+1dent1<U+00A3>1c.tlon
 9,
 Speclflc
 sslgnments
@@ -607,7 +607,7 @@ Pollcy
 Commlttee
 B
 Leglslat
-<U+9225><U+FFFD>.
+<U+2018>.
 0F
 mmsnmm
 ovmwmw
@@ -615,8 +615,8 @@ x
 A
 u
 a
-<U+5784>Ncn1cy............
-M.<U+9225><U+FFFD>
+<U+00A2>Ncn1cy............
+M.<U+2018>
 Deslgn
 (Englneerlng
 Standards)...
@@ -629,7 +629,7 @@ iSSuES,
 dld
 reauthorlze
 envlronmental
-Grammikudmani<U+94FF><U+4FF9>lllngs
+Grammikudmani<U+FB02>olllngs
 a
 whlch
 a
@@ -682,7 +682,7 @@ a
 hlgh
 I
 thls
-Grannikudmani<U+94FF><U+4FF9>lllngs
+Grannikudmani<U+FB02>olllngs
 deflclt
 mm
 thls

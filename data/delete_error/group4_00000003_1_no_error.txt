@@ -149,7 +149,7 @@ Marks
 Robert
 Barnett
 leght
-<U+9225><U+6EF3>harles
+<U+201D>Charles
 Brooke:
 Barry
 Buchanan
@@ -559,7 +559,7 @@ the
 Executlve
 had
 approved
-<U+9225><U+6F1A>uthorlzatlon
+<U+201D>authorlzatlon
 for
 another
 year.
@@ -1002,7 +1002,7 @@ Sales
 TOTAL
 REVENUE
 Budget
-Amendment<U+9225><U+FFFD>
+Amendment<U+201C>
 1991792
 Annual
 Budget

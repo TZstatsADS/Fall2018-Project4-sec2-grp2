@@ -3,7 +3,6 @@ u
 BY
 sovmwmm
 M.
-sTov<U+9225><U+6968>R
 cousmss
 m
 commxms
@@ -89,7 +88,7 @@ apparently
 revlslon
 mm
 a
-acrossthe<U+94FF><U+4E64>oard
+acrossthe<U+FB01>aoard
 efflclency
 1ndustry,
 efflclency
@@ -102,14 +101,13 @@ by
 1ndustrlal
 efflclency
 a
-performance<U+94FF><U+4E64>ase
 bulldlng
 bulldlng
 energyiefflclency
 appllances.
 posslbllltles
 a
-"gas<U+94FF><U+4FEB>uzzllng"
+"gas<U+FB02>guzzllng"
 Vehlcles,
 hlgher
 a
@@ -184,7 +182,6 @@ mlddlemanagers
 by
 provldlng
 readyitoiuse
-infoz<U+9225><U+69A5>k
 artlcles
 publlcatlons,
 1:
@@ -368,7 +365,6 @@ slmllar,
 antkboycott
 provlslons
 dlfferences:
-Senate<U+94FF><U+4E64>lll
 v.
 s.
 flrms

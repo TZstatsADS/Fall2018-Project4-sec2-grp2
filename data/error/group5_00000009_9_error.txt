@@ -121,7 +121,6 @@ llablllty
 publlc
 mm
 1:
-re<U+94FF><U+4E74>led
 Leglslatures
 envlronmental
 faclng
@@ -178,7 +177,6 @@ taklng
 whlch
 Conslderatlon
 1:
-<U+94FF><U+4FE5>w
 Leglslature
 A.
 a
@@ -516,13 +514,13 @@ Dlsposal
 Prohlbltlo
 posslble
 dlspo
-<U+9225><U+FFFD>1
+<U+2014>1
 bannlng.
 leenzofurans/D1benzodlox1ns.
 preparlng
 a
 dmxm
-<U+9225><U+FFFD>.
+<U+2018>.
 s
 dmxm
 by
@@ -625,7 +623,7 @@ Envlronment
 Commlttee
 Workshops
 -
-EPA/UN<U+9225><U+6968>P
+EPA/UN<U+2018>EP
 entltled,
 Envlronmental
 Cllmate

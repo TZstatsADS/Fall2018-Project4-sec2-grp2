@@ -5,7 +5,7 @@ and
 use
 patterns,
 toxlcologlc
-propel<U+9225><U+FFFD>
+propel<U+201D>
 tles.
 an-
 the
@@ -347,6 +347,7 @@ Health
 Research
 Group
 would
+<U+FB01>lls
 motlon
 for
 1njunct1ve
@@ -362,6 +363,7 @@ on
 Octobr
 the
 Group
+<U+FB01>lls
 scovery
 request
 OSHA
@@ -403,6 +405,7 @@ the
 resolui
 tlon
 of
+<U+FB01>fe
 of
 the
 Ozone
@@ -1101,6 +1104,7 @@ DIRECTOR
 GOVERNMENT
 RELATIONS
 WILLIAM
+sTov<U+2018>ER
 TAXATION
 THE
 PRES
@@ -1683,7 +1687,7 @@ dle
 1ntroduc
 b111,
 47mm,
-51ml<U+9225><U+FFFD>
+51ml<U+201C>
 1n
 many
 respects
@@ -1729,7 +1733,7 @@ energy
 emergency.
 cm,
 likewise,
-balls<U+9225><U+FFFD>
+balls<U+201C>
 that
 no
 15
@@ -1880,6 +1884,7 @@ to
 encourage
 development
 of
+mp<U+201C>
 lsan
 1n
 accordance
@@ -2239,6 +2244,7 @@ Guldance
 Docum
 nt.
 test
+<U+FB01>led
 last
 year
 1n
@@ -2798,6 +2804,7 @@ were
 Senator
 Robert
 Stafford
+<U+201D>Hm
 1n
 the
 Congre57
@@ -3823,6 +3830,7 @@ the
 were
 Congressman
 Jim
+<U+201C>Ham.
 Congressman
 thter,
 Attorney
@@ -4039,7 +4047,7 @@ Slade
 Gorton
 1R7Wash.)
 and
-<U+94FF><U+4E74>led
+<U+FB01>lled
 supplemental
 stateme
 for
@@ -4079,6 +4087,7 @@ October
 and
 19.
 15
+<U+FB01>lls
 stateme
 for
 the
@@ -4329,6 +4338,7 @@ on
 subject
 are
 255
+(Mathlas<U+FB02>iide
 and
 1-37
 and
@@ -4417,6 +4427,7 @@ Se
 ate
 Verslon.
 1700,
+Dole<U+FB02>iikansJ.
 Will
 be
 marked
@@ -4429,7 +4440,7 @@ October
 20.
 The
 key
-155<U+9225><U+FFFD>
+155<U+201C>
 that
 time
 Will

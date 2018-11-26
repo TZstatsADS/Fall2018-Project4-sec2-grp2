@@ -32,6 +32,7 @@ Requlred:
 One
 staff
 executlve
+<U+20AC>07
 the
 work
 of
@@ -1351,7 +1352,7 @@ AND
 ENVIRONMENTAL
 SPECIAL
 AN
-Th<U+82A6>
+Th<U+00AB>
 of
 the
 Blamedlcal
@@ -1693,7 +1694,7 @@ usa
 of
 benzene.
 1980,
-<U+62E2>157
+<U+00A3>157
 teen
 program
 panels
@@ -1707,7 +1708,7 @@ or
 begun
 programs
 1ncluded
-advocacy<U+9225><U+FFFD>
+advocacy<U+201C>
 In
 September
 1979,
@@ -1867,7 +1868,7 @@ secretarles.
 and
 one
 word
-processor<U+9225><U+FFFD>
+processor<U+201C>
 One
 program
 and
@@ -2215,6 +2216,7 @@ Th1:
 arrangement
 produces
 an
+mun<U+201C>;
 rate
 of
 5925
@@ -2559,7 +2561,7 @@ To
 Speclal
 programs
 has
-1dent1<U+62E2>1ed
+1dent1<U+00A3>1ed
 steps
 should
 be

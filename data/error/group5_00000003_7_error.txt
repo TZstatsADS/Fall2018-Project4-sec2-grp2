@@ -14,7 +14,6 @@ by
 (RiCAH
 (5.
 by
-<U+9225><U+6DD7>m
 t
 leglslatlon
 whlch
@@ -938,7 +937,6 @@ dlstrlbuted.
 a
 a
 sllde
-<U+9225><U+6F1A>ge
 commlttee
 meetlng
 communlty

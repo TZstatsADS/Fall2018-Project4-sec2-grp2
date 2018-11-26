@@ -41,7 +41,7 @@ Consultlng
 UNALLDCATED
 svppom
 Accountlng
-<U+62E2>1
+<U+00A3>1
 Servlces
 Dlstrlbutlon,
 Servlces
@@ -62,16 +62,16 @@ ummmm
 Beneflts
 &
 Subscrlptlons
-<U+62E2>1
+<U+00A3>1
 Publlcatlons
 Dutslde
 Prlntlng
 Graphlcs
 Meetlngs
-<U+62E2>1
+<U+00A3>1
 Workshops
 Frelght
-<U+62E2>1
+<U+00A3>1
 Supplles
 Offlce
 Admlnlstratlve
@@ -80,7 +80,7 @@ Admlnlstratlon
 Accountlng
 Offlce
 Prlntlng
-<U+62E2>1
+<U+00A3>1
 Dlstrlbutlon
 mxpmsgsy
 :'I
@@ -131,7 +131,7 @@ Testlng
 Commlttee
 4,4'7Methylene"
 dlanlllne
-mm.<U+7984>
+mm.<U+00BB>
 consldered
 testlng
 1::
@@ -226,7 +226,6 @@ trylng
 condltlons
 whlch
 a
-Smooti<U+94FF><U+4FDB>wley
 whlch
 magnlfled
 a

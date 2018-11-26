@@ -1,6 +1,6 @@
 Th1:
 reflects
-199<U+9225><U+FFFD>
+199<U+2018>
 chemlcal
 trade
 balance
@@ -99,7 +99,7 @@ Dep't.
 of
 Commerce,
 of
-Census<U+9225><U+FFFD>
+Census<U+201C>
 of
 Export
 an
@@ -377,7 +377,7 @@ the
 Camdlan
 Natlonal
 Energy
-mum<U+7984>
+mum<U+00BB>
 have
 h.d
 an
@@ -666,6 +666,7 @@ Act"
 as
 nay:
 repla
+<U+FB02>uent.
 ne
 15
 supposed
@@ -1249,7 +1250,7 @@ Should
 Provlde
 for
 the
-Mandatory<U+9225><U+FFFD>
+Mandatory<U+201D>
 of
 Dutles
 1n
@@ -2169,7 +2170,7 @@ progm
 revlew
 for
 1nfozmatlon
-only<U+9225><U+FFFD>
+only<U+201C>
 requests
 for
 one
@@ -2221,7 +2222,7 @@ groundwater
 yum,
 drawn
 to
-use<U+9225><U+FFFD>
+use<U+201C>
 The
 federal
 government
@@ -2324,7 +2325,7 @@ current
 Board
 approve
 Superfund
-5<U+63B3>15
+5<U+00B0>15
 Sores
 Aqulfer
 Th1:
@@ -2332,6 +2333,7 @@ po
 lay
 exports
 on
+5cm<U+201C>:
 as
 over
 sole
@@ -2429,7 +2431,7 @@ managamant
 of
 tha
 resourca
-<U+82A6>141
+<U+00AB>141
 ting
 or
 at

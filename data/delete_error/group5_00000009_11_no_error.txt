@@ -253,6 +253,7 @@ among
 the
 for
 new
+MTN.<U+2019>
 The
 1nternatlonal
 trade
@@ -773,7 +774,7 @@ forms,
 equlpment
 and
 hazard
-1dent1<U+62E2>1catlon.
+1dent1<U+00A3>1catlon.
 In
 exchange
 for
@@ -835,7 +836,7 @@ the
 1nterstate
 movement
 of
-goods<U+9225><U+FFFD>
+goods<U+201C>
 Improve
 the
 ability
@@ -1270,7 +1271,7 @@ There
 are
 generally
 twelve
-area<U+9225><U+FFFD>
+area<U+201C>
 balng
 tha
 Natlonal

@@ -6,7 +6,7 @@ commlttee
 :1
 by
 1ndustry
-<U+9225><U+FFFD>
+<U+2018>
 Certalnly,
 fltful
 0:
@@ -80,9 +80,9 @@ o
 opposltlon
 prlce
 3.
-a.<U+9225><U+FFFD>
+a.<U+2018>
 t
-.1<U+9225><U+FFFD>:
+.1<U+201C>:
 a
 tltled
 "
@@ -296,11 +296,11 @@ Commlsslon
 elghteen
 months
 By
-6-1<U+9225><U+FFFD>
+6-1<U+201C>
 by
 a
 Multlnatlonal
-Enterprlses.<U+9225><U+FFFD>
+Enterprlses.<U+201D>
 lengthy
 strlallzed
 prlnclples

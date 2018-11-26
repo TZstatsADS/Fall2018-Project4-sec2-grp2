@@ -241,7 +241,6 @@ Durlng
 flrst
 shazply
 1:
-Postilg<U+9225><U+69A3>a
 decllned
 m
 MM
@@ -303,7 +302,7 @@ recently
 by
 m
 escalatlng
-(postil/l/<U+9225><U+6964>y
+(postil/l/<U+2018>By
 classmk
 currently
 lltlgatlon

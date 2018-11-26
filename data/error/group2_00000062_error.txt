@@ -157,7 +157,7 @@ mm
 Councll
 Pollcy
 concernlng
-<U+82A6>n
+<U+00AB>n
 revlslons.
 1:
 a

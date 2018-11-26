@@ -689,12 +689,12 @@ foodicontact
 of
 AN
 polymers.
-<U+82A6>seclally
+<U+00AB>seclally
 beverage
 bocclas.
 However.
 aha
-<U+9225><U+6A83>nal
+<U+2019>anal
 aoc
 assume
 advocacy
@@ -964,7 +964,7 @@ standard.
 9
 CMA
 037771
-Th<U+82A6>
+Th<U+00AB>
 panel
 co
 tlnues
@@ -1588,7 +1588,7 @@ CMA
 037773
 9.10
 (quay
-Th<U+82A6>
+Th<U+00AB>
 Program
 Panel
 was
@@ -1759,7 +1759,7 @@ response
 to
 the
 petition
-<U+94FF><U+4E74>led
+<U+FB01>lled
 the
 Health
 Research
@@ -1889,7 +1889,7 @@ Theory
 June,
 1974
 she
-<U+9225><U+6A99>ogram
+<U+2019>rogram
 was
 expanded
 and
@@ -2186,6 +2186,7 @@ of
 toxlcology
 1nfomatlon
 mentk
+<U+FB01>led.
 as
 the
 Health
@@ -2897,7 +2898,7 @@ In
 response
 to
 petition
-<U+94FF><U+4E74>led
+<U+FB01>lled
 under
 Sectlon
 21
@@ -3041,7 +3042,7 @@ was
 formed
 Within
 the
-<U+9225><U+6A8B>thalate
+<U+2019>hthalate
 Ester
 Panel.
 to

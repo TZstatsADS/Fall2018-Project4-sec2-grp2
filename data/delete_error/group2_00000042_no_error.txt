@@ -56,7 +56,7 @@ all.
 Some
 member
 company
-<U+5E90>t1mates
+<U+00AE>t1mates
 place
 the
 new

@@ -1083,7 +1083,7 @@ bemg
 taken.
 The
 MCA
-<U+62E2>11m,
+<U+00A3>11m,
 "Safety
 1n
 the
@@ -1101,7 +1101,7 @@ and
 purchasers
 of
 the
-<U+62E2>11m
+<U+00A3>11m
 Drafts
 of
 11
@@ -1542,7 +1542,7 @@ of
 taxatlon
 lssues
 was
-<U+94FF><U+4E74>led
+<U+FB01>lled
 September
 letter
 to
@@ -1602,7 +1602,7 @@ the
 Senate
 an
 objectlonable
-1ndemn1<U+62E2>1catlon
+1ndemn1<U+00A3>1catlon
 The
 measure
 riled

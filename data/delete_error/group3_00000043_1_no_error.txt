@@ -716,6 +716,7 @@ MCA
 CMA
 037505
 2051
+<U+201D>In
 the
 relatlons
 area
@@ -929,7 +930,7 @@ assoclatlons
 and
 groups
 MCA
-51ml<U+9225><U+FFFD>
+51ml<U+201C>
 1nfomatlon
 from
 them.
@@ -1955,7 +1956,7 @@ shall
 be
 the
 chlef
-<U+62E2>17
+<U+00A3>17
 nanclal
 and
 of
@@ -2346,6 +2347,7 @@ but
 thelr
 names
 bear
+hex<U+201C>.
 Sectlon
 311,
 "Superfund."
@@ -2372,7 +2374,7 @@ that
 will
 mark
 the
-<U+82A6>nu
+<U+00AB>nu
 of
 the
 new
@@ -2665,7 +2667,7 @@ and
 charges,
 MCA
 has
-<U+94FF><U+4E74>led
+<U+FB01>lled
 svatement
 that
 the
@@ -2681,6 +2683,7 @@ were
 already
 too
 plans
+<U+FB01>lls
 state*
 m-nt
 on

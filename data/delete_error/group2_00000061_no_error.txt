@@ -255,7 +255,7 @@ responded
 favorably.
 These
 are
-All<U+9225><U+FFFD>
+All<U+201C>
 Water
 Resources,
 Solid

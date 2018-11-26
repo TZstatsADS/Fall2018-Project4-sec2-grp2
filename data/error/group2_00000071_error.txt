@@ -169,7 +169,7 @@ slmllarly
 1ncllned,
 1:
 enthuslastlc
-Humphreyi<U+94FF><U+4FDB>wklns
+Humphreyi<U+FB02>awklns
 Admlnlstratlon
 presslng
 partlcular
@@ -194,7 +194,6 @@ spreadlng
 by
 mg
 overtlme
-Walshi<U+94FF><U+4FE5>aley
 Publlc
 elght
 opposlng
@@ -291,7 +290,6 @@ v.
 s.
 by
 multlnatlonal
-<U+94FF><U+4E74>ms.
 I
 I
 I
@@ -687,7 +685,7 @@ hearlng,
 declslon
 mm
 T
-<U+7984>
+<U+00BB>
 exlstence
 .
 cm

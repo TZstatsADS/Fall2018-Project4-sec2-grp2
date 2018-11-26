@@ -85,7 +85,7 @@ of
 Suparfund
 regulatory
 Hill
-r<U+82A6>aln
+r<U+00AB>aln
 high
 for
 tha
@@ -435,7 +435,7 @@ of
 the
 solld
 waste
-progr<U+82A6>s,
+progr<U+00AB>s,
 alr
 and
 5:111
@@ -2578,6 +2578,7 @@ the
 results
 speak
 for
+themselves<U+201C>.
 The
 team
 has

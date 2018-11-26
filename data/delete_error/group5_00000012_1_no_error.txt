@@ -455,7 +455,7 @@ Vlack
 Gary
 Herman
 Davld
-2<U+63B3>11
+2<U+00B0>11
 Frank
 7
 Chevron
@@ -916,7 +916,7 @@ the
 Texas
 year
 were
-1dent1<U+62E2>1ed
+1dent1<U+00A3>1ed
 as
 budget
 and
@@ -1966,7 +1966,7 @@ the
 year
 ahead.
 He
-1dent1<U+62E2>1ed
+1dent1<U+00A3>1ed
 problems
 had
 slowed
@@ -2115,7 +2115,7 @@ were:
 0
 Approved
 to
-<U+62E2>111
+<U+00A3>111
 Vacancles
 on
 Varlous

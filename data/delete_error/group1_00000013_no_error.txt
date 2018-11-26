@@ -496,6 +496,7 @@ however,
 the
 number
 of
+ft<U+201D>
 degrees
 awarded
 1n
@@ -937,7 +938,7 @@ We
 of
 the
 Co
-<U+9225><U+FFFD>1ttee
+<U+2018>1ttee
 feel
 15
 serlous
@@ -1308,6 +1309,7 @@ theoretlcal
 1nfomatlon
 1nto
 such
+35<U+2014>m1n15tratlon,
 personnel,
 government
 and

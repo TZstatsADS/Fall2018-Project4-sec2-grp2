@@ -7,7 +7,7 @@ approved,
 3
 on
 bllateral
-<U+94FF><U+4E7A>esitrade
+<U+FB01>resitrade
 negotlatlons
 between
 the
@@ -476,7 +476,7 @@ number
 and
 of
 the
-trad<U+9225><U+FFFD>
+trad<U+201C>
 mus
 proposed,
 the
@@ -770,7 +770,7 @@ approvas
 on
 tha
 naw
-Round<U+9225><U+FFFD>
+Round<U+201C>
 tha
 Trada
 and
@@ -1603,6 +1603,7 @@ has
 also
 been
 good.
+av<U+201C>
 17m
 companles
 have
@@ -2140,6 +2141,7 @@ of
 the
 Conservatlon
 Founda*
+tion,<U+2019>
 came
 to
 agreement
@@ -2927,7 +2929,7 @@ the
 regulatory
 agencles
 x1111
-however<U+9225><U+FFFD>
+however<U+201C>
 to
 use
 health

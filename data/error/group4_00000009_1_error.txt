@@ -118,7 +118,7 @@ E.
 &
 E.
 a,
-B1311<U+9225><U+FFFD>,
+B1311<U+201C>,
 B.
 Brownlng,
 Carblde
@@ -622,7 +622,7 @@ practlces.
 cm
 cm
 m
-Ch-lz<U+9225><U+69A4>an,
+Ch-lz<U+2018>man,
 Commlttee
 leadershlp
 Commlttee

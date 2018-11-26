@@ -1,6 +1,7 @@
 STAFF
 REPRT
 January
+1<U+2018>73
 TAX
 REFORM...hear1ngs
 before
@@ -293,7 +294,7 @@ er
 24,
 the
 rallroads
-<U+94FF><U+4E74>led
+<U+FB01>lled
 reply
 to
 statements
@@ -392,6 +393,7 @@ for
 Dccupatlonal
 Safety
 and
+<U+FB02>ea
 th,
 15
 Natlonal
@@ -737,7 +739,7 @@ Page
 4
 THE
 ATER
-<U+9225><U+6E1F>wans
+<U+201C>swans
 eight
 task
 grous

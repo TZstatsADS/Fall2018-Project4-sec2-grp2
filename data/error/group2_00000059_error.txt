@@ -3,7 +3,6 @@ y
 ummmn
 M.
 STDVER
-NDV<U+9225><U+6968>M<U+9225><U+6964>E
 :5
 m-rnlng
 2,
@@ -162,7 +161,7 @@ m
 Dr
 strlct
 strlpimlnlng;
-u<U+9225><U+FFFD>-
+u<U+2014>-
 awlng
 brlbes
 m
@@ -225,7 +224,7 @@ n
 nslde.
 Jlmmy
 establlshment.
-<U+94FF><U+4E6A>
+<U+FB01>e
 Hlth
 a
 m
@@ -429,7 +428,6 @@ mm
 runnlng
 offlce.
 raielectlon
-<U+94FF><U+4E7A>es
 en",
 flrst
 Desplte
@@ -496,7 +494,7 @@ E.
 a
 ellmlnatlon
 a.
-<U+9225><U+FFFD>
+<U+2018>
 shlftlng
 envlronmental
 rsponslbllltles.

@@ -6,7 +6,7 @@ a
 prlvllege
 dlscusslng
 actlvltles
-A11<U+9225><U+FFFD>
+A11<U+201C>
 Quallty
 Commlttee,
 I
@@ -45,7 +45,7 @@ w
 Hlth
 thls
 Dxldant
-A11<U+9225><U+FFFD>
+A11<U+201C>
 Quallty
 quallty
 a

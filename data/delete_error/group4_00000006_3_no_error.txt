@@ -1790,7 +1790,7 @@ streams.
 037909
 Research
 and
-Th<U+82A6>
+Th<U+00AB>
 total
 91/92
 budget
@@ -2090,6 +2090,7 @@ several
 obseri
 Vatlons
 about
+the<U+2018>year
 ahead
 to
 group.
@@ -2330,6 +2331,7 @@ to
 do
 water;
 one
+all<U+201C>;
 and
 three
 solld
@@ -3406,6 +3408,7 @@ CAA
 uncertaln.
 037915
 the
+make<U+FB02>zp
 and
 mood
 of
@@ -3626,7 +3629,7 @@ examples.
 Natlonal
 Amblent
 Standards
-<U+5784>NAAst...ozone
+<U+00A2>NAAst...ozone
 for
 502,
 Superfund

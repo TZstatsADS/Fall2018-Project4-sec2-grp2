@@ -87,7 +87,7 @@ Refrlgeratlng
 dltlonlng
 Englneers,
 (ASHRAEy
-100.<U+9225><U+FFFD>.
+100.<U+201D>.
 a
 exlstlng
 1ndustrlal
@@ -316,7 +316,6 @@ s
 cm
 workshop
 tltled.
-Effluents,<U+9225><U+FFFD>
 by
 Wyomlng.
 e
@@ -442,7 +441,7 @@ submlttad
 whlle
 a
 speclflcs
-(e<U+82A6>g.,
+(e<U+00AB>g.,
 1%
 labellng
 lngredlents

@@ -168,7 +168,6 @@ semlnar/workshop
 mm
 envlronmentallsts
 publlc
-<U+9227><U+FFFD>07
 costly
 provlslon
 m
@@ -731,7 +730,6 @@ asslstance
 .
 Th
 r
-<U+94FF><U+4E74>ms
 a
 system
 quantlty
@@ -783,7 +781,7 @@ prsentlng
 1::
 actlvltles
 Commlttee's
-<U+9225><U+FFFD>
+<U+2018>
 actlvltles
 e
 a

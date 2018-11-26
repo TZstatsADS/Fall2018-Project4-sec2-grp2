@@ -26,7 +26,7 @@ be
 1n
 the
 lssues
-1dent1<U+62E2>1ed
+1dent1<U+00A3>1ed
 the
 Natlonal
 Conference
@@ -706,6 +706,7 @@ Senate.
 Senator
 Jesse
 Helms
+<U+201D>Ham
 offered
 an
 amendment
@@ -1368,7 +1369,7 @@ Verslon
 of
 Superfund
 and
-1dent1<U+62E2>1catlon
+1dent1<U+00A3>1catlon
 of
 1ndustr1es
 have
@@ -1487,7 +1488,7 @@ use
 relatlons
 programs.
 The
-<U+62E2>11m
+<U+00A3>11m
 has
 been
 to
@@ -1516,7 +1517,7 @@ Infomatlon
 Task
 Group
 15
-<U+62E2>11m
+<U+00A3>11m
 plan
 that
 1ncludes
@@ -1528,7 +1529,7 @@ platforms
 for
 and
 the
-<U+62E2>11m.
+<U+00A3>11m.
 Hazardous
 Waste
 Management
@@ -2855,7 +2856,7 @@ the
 alr
 control
 and
-1dent1<U+62E2>1ed
+1dent1<U+00A3>1ed
 Varlous
 optlons
 on
@@ -2975,7 +2976,7 @@ on
 January
 13,
 CMA
-<U+94FF><U+4E74>led
+<U+FB01>lled
 1:5
 brlef
 1n
@@ -3076,7 +3077,7 @@ All
 brlefs
 we
 been
-<U+94FF><U+4E74>led
+<U+FB01>lled
 and
 expected
 mmunlcatlons

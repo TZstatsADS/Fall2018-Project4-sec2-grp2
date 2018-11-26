@@ -79,7 +79,7 @@ A
 descrlblng
 hydrocarbon
 vm
-<U+9225><U+FFFD>
+<U+2018>
 dlfferences
 descrlblng
 characterlstlc

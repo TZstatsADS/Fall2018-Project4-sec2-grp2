@@ -2047,7 +2047,7 @@ For
 the
 of
 the
-<U+9225><U+6A99>eamble
+<U+2019>reamble
 and
 of
 the
@@ -2867,7 +2867,7 @@ of
 General
 Counsel
 has
-<U+94FF><U+4E74>led
+<U+FB01>lled
 amlcus
 brlefs
 1n
@@ -3380,6 +3380,7 @@ Senate.
 Senator
 Max
 Baucus
+<U+201D>Hm
 Will
 be
 the

@@ -47,7 +47,7 @@ to
 pay
 clalm
 solely
-<U+9225><U+6F1B>ecause
+<U+201D>because
 of
 over
 the
@@ -133,7 +133,7 @@ under
 RCRA.
 CMA'S
 comments
-1dent1<U+62E2>1ed
+1dent1<U+00A3>1ed
 and
 problems
 the
@@ -454,14 +454,14 @@ new
 waste
 slte
 cleanup
-<U+62E2>11m,
+<U+00A3>11m,
 has
 been
 completed
 and
 1n
 The
-<U+62E2>11m
+<U+00A3>11m
 15
 1ntended
 to
@@ -529,7 +529,7 @@ companles
 are
 usmg
 the
-<U+62E2>11m
+<U+00A3>11m
 for
 1nternal
 audlences.
@@ -538,7 +538,7 @@ just
 more
 than
 50
-<U+62E2>11m:
+<U+00A3>11m:
 and
 tapes
 have
@@ -758,6 +758,7 @@ Groundwater
 Senator
 Dave
 Durenberger
+<U+201C>Ham
 has
 held
 three
@@ -2244,6 +2245,7 @@ the
 Senate,
 Alphonse
 D'Amato
+<U+201D>Hm
 has
 been
 on
@@ -2446,7 +2448,7 @@ CARR
 program.
 An
 amendment
-151ml<U+9225><U+FFFD>
+151ml<U+201C>
 to
 Senator
 Lautanberg'sy
@@ -2974,6 +2976,7 @@ plants
 located
 1n
 Baton
+Rouge<U+FB01>qew
 Orleans,
 New
 Jersey,
@@ -3226,6 +3229,7 @@ luvplementatlon
 plan
 for
 matter.
+<U+FB02>ew
 Source
 Perfomance
 Standards.
@@ -3254,7 +3258,7 @@ were
 1n
 response
 to
-EPA<U+9225><U+FFFD>
+EPA<U+201C>
 the
 consent
 perlod
@@ -3359,11 +3363,13 @@ conducted
 1n
 three
 areas
+<U+FB02>ew
 Orlean57Baton
 Rouge,
 Hlagara
 Falls,
 and
+<U+FB02>ew
 Jersey.
 The
 flnal
@@ -3527,7 +3533,7 @@ under
 sectlon
 112.
 mm:
-<U+94FF><U+4E74>led
+<U+FB01>lled
 1:5
 brlef
 on
@@ -3543,7 +3549,7 @@ CMA/API
 brlef
 Will
 be
-<U+94FF><U+4E74>led
+<U+FB01>lled
 on
 August
 19.

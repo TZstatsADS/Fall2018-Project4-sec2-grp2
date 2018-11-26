@@ -25,11 +25,11 @@ processlng
 capaclty
 a
 commodlty
-...<U+9225><U+6AA6>U.s.
+...<U+2019>~U.s.
 Bureau
 nghllghts
 v.5.
-(<U+9225><U+FFFD>990:
+(<U+201D>990:
 cm
 III.
 Beneflts
@@ -147,7 +147,6 @@ whlch
 domestlc
 admlnlster
 restrlctlve
-<U+94FF><U+5001>ent.
 whlle
 thls
 leglslatlon
@@ -429,7 +428,7 @@ r
 exhlblt
 j,
 I
-<U+9225><U+FFFD>
+<U+2018>
 A
 GRovNDwATER
 PRoPosED
@@ -582,7 +581,6 @@ drlnklng
 supplle-
 pollcy.
 restrlctlons
-5cm<U+9225><U+FFFD>:
 contmnatlon
 t
 e

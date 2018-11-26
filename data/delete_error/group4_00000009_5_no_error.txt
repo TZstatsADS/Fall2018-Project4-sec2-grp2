@@ -1445,7 +1445,7 @@ program
 and
 necessary
 overhead
-charges<U+9225><U+FFFD>
+charges<U+201C>
 Company
 Personnel
 One

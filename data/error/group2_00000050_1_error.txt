@@ -15,7 +15,6 @@ strlcter
 lobbylng...;
 a
 whlle
-AFL<U+9225><U+6A5F>ID
 by
 ubllc
 dlsclosure
@@ -58,7 +57,6 @@ o
 mechanlsms
 recently
 soundly
-tlgated.<U+9225><U+FFFD>
 cm
 1::
 dlscusslon
@@ -79,7 +77,7 @@ durlng
 ms
 o:\wp51
 \Mollle\37096*37464
-<U+9225><U+FFFD>
+<U+2018>
 Presldent...w-uld
 apparently
 strlcter
@@ -273,9 +271,9 @@ speclflc
 liaisons
 1::
 Publlc
-<U+9225><U+FFFD>
+<U+2018>
 1::
-A11<U+9225><U+FFFD>
+A11<U+201C>
 Quallty
 Commlttee,
 CommlttEE,
@@ -286,7 +284,7 @@ Advlsory
 Advlsory
 Commlttee.
 cm
-A11<U+9225><U+FFFD>
+A11<U+201C>
 Quallty
 Commlttee,
 1ndustry
@@ -302,7 +300,7 @@ servlce
 coordlnators
 [publlc
 posslble
-<U+9225><U+FFFD>11.)
+<U+2018>11.)
 leadlng
 cltles
 .
@@ -315,7 +313,6 @@ CommlttEE]
 weavlng
 t
 -
-MCA<U+9225><U+6A87>eveloped
 mlnd
 by
 e
@@ -379,7 +376,7 @@ whlch
 polllng
 partlclpatln
 actlvltles
-MCA...<U+9225><U+FFFD>
+MCA...<U+201C>
 Hlth
 conslstently
 1:
@@ -521,8 +518,7 @@ m
 manufacturlng
 1ndustry
 operatlng
-Q<U+9225><U+FFFD>.\Hp51
-<U+9225><U+FFFD>4.111937095737454
+Q<U+2019>.\Hp51
 relatlng
 m
 envlronmental
@@ -578,7 +574,7 @@ mm
 resultlng
 publlc
 w
-<U+9225><U+FFFD>.
+<U+2018>.
 clrcumstances,
 Hlth
 R
@@ -733,7 +729,6 @@ complalnts
 1:
 telllng
 nd
-gut?<U+9225><U+FFFD>
 by
 conceallng
 1:
@@ -836,7 +831,6 @@ competltlon
 Eu
 a
 "publlc
-<U+94FF><U+4E74>ms"
 Possesslve
 Publlc
 thlgatlon
@@ -848,7 +842,6 @@ Speclflc
 (SL177
 establlshed
 actlvltles
-<U+94FF><U+4E74>ms
 by
 supportlng
 enterprlse
@@ -955,7 +948,6 @@ Quallty
 Commlttee,
 1::
 Commlttees,
-1ts<U+9225><U+6A95>llt1cal
 Commlttee:
 "Dr.
 e
@@ -1122,7 +1114,6 @@ cm
 "addlng
 a
 councll
-MI<U+9225><U+FFFD>
 Desplte
 strength
 e
@@ -1216,13 +1207,13 @@ ommlttee
 Envlronment
 Conslderlng
 testlmony
-Fe-ruary.<U+9225><U+FFFD>
+Fe-ruary.<U+201C>
 thls
 0:
 prl
 \Mollle\37096*37464
 M
-<U+7984>
+<U+00BB>
 namlng
 mm
 a

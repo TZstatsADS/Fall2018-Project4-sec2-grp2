@@ -50,7 +50,7 @@ a
 addltlves
 meetlng
 Drthodontlsts.
-slx<U+94FF><U+FFFD>'nlnute
+slx<U+FB02>'nlnute
 by
 K.
 contlnue
@@ -118,7 +118,6 @@ unpresslve
 1ndustry
 by
 publlshlng
-l2<U+9225><U+6A96>age
 addltlon
 m
 a
@@ -152,14 +151,12 @@ u
 BY
 sovmmmm
 M.
-sTov<U+9225><U+6968>R
 2D,
 WAGEiPRICE
 ms
 anuqnflamon
 televlslon.
 1:
-elements<U+9225><U+FFFD>.
 a
 a
 deflclt
@@ -367,7 +364,6 @@ a
 envlronment.
 establlsh
 a
-double<U+94FF><U+4E6E>uty
 exlstlng
 llablllty
 consldered
@@ -759,7 +755,6 @@ ranklng
 Commlttee
 CommlttEE,
 Whltten
-431<U+9225><U+6A9A><U+9225><U+FFFD>
 uHm
 ranklng
 Republlcan
@@ -767,7 +762,6 @@ mlttEE,
 p
 ms
 shlp
-Labori<U+94FF><U+4FB2>W
 Subcommlttee
 (whlch
 sdlctlon
@@ -833,7 +827,7 @@ envlronmental
 leadlng
 Scheuer
 c
-.11<U+9225><U+FFFD>
+.11<U+201C>
 Subcommlttees.
 Commlttee,
 resp-nslble
@@ -875,7 +869,6 @@ Skubltz
 1:
 Republlcan.
 Phll
-<U+9225><U+6DD7>m
 ellmlnate
 leglslatlon,
 thls
@@ -924,7 +917,6 @@ Engllsh
 A7.
 (RiKS7
 Grlffen's
-<U+9225><U+6DD7>m
 Ranklng
 Republlcan
 raieleced
@@ -949,7 +941,7 @@ Rpubllcan
 posltlon
 ommlttee.
 (DiLAy
-<U+9225><U+6EFA>m,
+<U+201D>Hm,
 Subc-mmlttee
 Chalrmanshlps,
 whlch
@@ -964,7 +956,7 @@ Ranklng
 Mlnorlty
 Agrlculture
 Commlttee
-51:<U+9225><U+FFFD>
+51:<U+201C>
 Commlttee
 whlch
 jursdlctlon

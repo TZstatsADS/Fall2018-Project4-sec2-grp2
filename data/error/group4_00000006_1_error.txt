@@ -236,7 +236,6 @@ ChemCAP
 orlglnally
 1:
 thls
-mun<U+9225><U+FFFD>;
 flscal
 accordlngly,
 publlc
@@ -420,10 +419,10 @@ a
 supply
 dlsruptlon.
 cm
-T11<U+82A6><U+7984>
+T11<U+00AB><U+00BB>
 cm
 auccaaafully
-<U+82A6>a
+<U+00AB>a
 v.5.
 1ndustry
 uncompetltlve
@@ -487,7 +486,6 @@ Brleflng"
 mg
 Reportlng
 V33
-follow<U+9225><U+FFFD>:
 CoaalttE":
 aaetlnga
 partlclpatlon
@@ -495,15 +493,12 @@ by
 laauaa:
 Commlttee
 laau357
-Ga<U+9225><U+FFFD>
 Plannlng
-Tax<U+9225><U+6EBE>€<U+FFFD>
 Reportlng
 Iaauaa
 Brleflng"
 Reportlng
 worklng
-year<U+9225><U+FFFD>.
 r
 Exhlblt
 A
@@ -544,7 +539,7 @@ mm
 Bepubllcan
 m
 domestlc
-R<U+8305>publlcans
+R<U+00E9>publlcans
 [we]
 restrlctlons
 ellmlnated.

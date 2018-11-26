@@ -21,14 +21,13 @@ Commlttee
 opposltlon
 by
 antltrust
-implicatl<U+94FF><U+4E76>,
 -posltlon
 m
 Brlck
 5.
 by
 shlppers
-51.<U+9225><U+FFFD>
+51.<U+201C>
 Flsherles
 Commlttee*reported
 3.x.
@@ -56,7 +55,7 @@ cm
 Judlclary
 clarlflcatlon.
 a
-Commltte<U+9225><U+FFFD>.
+Commltte<U+2018>.
 1:
 posslble
 wlthout
@@ -118,7 +117,7 @@ a
 leglslatlon
 by
 uHmvy
-<U+9225><U+FFFD>
+<U+2014>
 rongly
 by
 comnunlty.
@@ -236,7 +235,6 @@ th
 Instltute
 Electrlcal
 Englneers
-AFL<U+9225><U+6A5F>ID.
 Addltlo
 hearlngs
 Commlttee
@@ -362,7 +360,6 @@ NCSL
 1ndustry
 t
 I
-TI<U+9225><U+FFFD>
 I
 c
 Wlsconsln
@@ -621,7 +618,7 @@ Commlttee
 1ndustry7
 actlvltles
 comrehenslve
-2.<U+9225><U+FFFD>:vaer
+2.<U+201C>:vaer
 advertlslng
 by
 Cambrldge
@@ -690,7 +687,6 @@ by
 thls
 a
 backgr-unders
-lssues,<U+9225><U+FFFD>
 W
 dlsposal
 W
@@ -780,7 +776,6 @@ Instltute
 Englneers,
 enllst
 AIChE
-Du<U+9225><U+6A95>nt
 cm
 my
 b-
@@ -907,7 +902,6 @@ contrlbutlons
 1::
 rlsk.
 A
-<U+94FF><U+4E7A>e
 sllde
 cm
 strlves
@@ -936,4 +930,4 @@ s
 backgrounders
 t
 C
-<U+9225><U+FFFD>
+<U+2018>

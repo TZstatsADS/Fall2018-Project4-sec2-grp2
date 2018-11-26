@@ -227,7 +227,7 @@ A1
 a
 whlch
 workplace
-<U+82A6>
+<U+00AB>
 Instltute
 extenslve
 toxlclty
@@ -359,7 +359,7 @@ Instltute
 mmsm.
 thlrdiparty
 audltlng
-<U+9225><U+FFFD>
+<U+2014>
 quallty
 carclnogenlc
 n-
@@ -573,7 +573,6 @@ unpubllshed
 partlclpatlng
 prlnclpa
 deflclencles
-<U+94FF><U+4E74>ed.
 :1
 Industrlal
 mm
@@ -702,7 +701,7 @@ recommnded
 envlronmental
 testlng
 phthalate
-<U+9225><U+FFFD>5
+<U+201C>5
 provlslons
 ACt
 (Tscm,
@@ -715,7 +714,7 @@ a
 a
 ml
 whlch
-dl<U+9225><U+FFFD>27ethylhexyl
+dl<U+2019>27ethylhexyl
 phthal-te
 Do?)
 carcln-ma
@@ -768,7 +767,7 @@ Phthalate
 dlscusslons
 mm
 Newburgiklnn
-3-<U+9225><U+FFFD>
+3-<U+201D>
 '5
 a
 a

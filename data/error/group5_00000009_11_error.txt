@@ -102,7 +102,6 @@ v.5.
 negotlatlng
 objectlves
 a
-MTN.<U+9225><U+FFFD>
 conslderatlon
 pollcy
 negotlatlng
@@ -197,7 +196,7 @@ mnmsu
 A
 a
 ellmlnatlon
-trade<U+94FF><U+4E6E>lstortlng
+trade<U+FB01>ilstortlng
 practlces,
 o
 restrlctlons

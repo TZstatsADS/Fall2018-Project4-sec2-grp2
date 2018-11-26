@@ -751,7 +751,7 @@ of
 research
 work
 to
-<U+62E2>111
+<U+00A3>111
 data
 gaps
 1n

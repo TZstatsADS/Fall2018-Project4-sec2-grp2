@@ -906,6 +906,7 @@ be
 made
 under
 the
+Walshi<U+FB02>ealey
 Contracts
 Act
 to
@@ -1263,7 +1264,7 @@ would
 give
 the
 Labor
-Depart<U+9225><U+FFFD>
+Depart<U+2018>
 ment
 the
 power
@@ -1326,6 +1327,7 @@ alleged
 of
 jobs
 U.S.7based!
+<U+FB01>lms.
 am
 037157
 penslons.
@@ -2777,7 +2779,7 @@ and
 enforcement
 of
 Cass
-<U+94FF><U+4E74>led
+<U+FB01>lled
 the
 Natlonal
 Labor

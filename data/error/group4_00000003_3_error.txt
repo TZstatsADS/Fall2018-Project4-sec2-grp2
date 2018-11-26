@@ -1,5 +1,4 @@
 Commlttee
-<U+9227><U+FFFD>07
 ordlnatlng
 commlttee.
 pnosmms
@@ -451,7 +450,7 @@ thlrteen,
 a
 admlnlstrators,
 a
-coordlnator,<U+9225><U+FFFD>
+coordlnator,<U+2018>
 admlnlstrator
 admlnlstrators
 responslble
@@ -524,7 +523,6 @@ Hlth
 mm
 a
 effectlve
-mun<U+9225><U+FFFD>;
 flscal
 cm
 wrltten
@@ -614,7 +612,7 @@ admlnlstratlon
 cm
 LDNCrRANGE
 cm
-CMA<U+9225><U+6A5E>dmlnlseered
+CMA<U+2019>Bdmlnlseered
 a
 objectlvlty
 Integrlty.

@@ -128,7 +128,7 @@ Effectlvely
 whlch
 Whlte
 addltlon
-group<U+9225><U+6A9A>peclflc
+group<U+2019>speclflc
 commlttee
 actlve
 Prlmary
@@ -799,7 +799,7 @@ whlch
 subsldlarles
 System
 Reslst
-<U+6402>
+<U+00A7>
 whlch
 1ndustry
 1ndustry

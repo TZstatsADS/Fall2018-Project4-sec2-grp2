@@ -579,7 +579,7 @@ Votlng
 1:
 dld
 communlty
-<U+9225><U+FFFD>
+<U+2018>
 a
 .
 s.
@@ -804,7 +804,7 @@ lltlg.tlon,
 petltloners
 meetlng
 mm
-<U+9225><U+FFFD>
+<U+2018>
 dlscuss
 posslble
 llght
@@ -838,7 +838,7 @@ actlvltles
 5.
 artlcle
 reauthorlzed
-<U+9225><U+6E18>
+<U+201C>n
 waste*d15poslng
 sncnm
 1.
@@ -891,7 +891,6 @@ hearlngs
 antlclpated
 t
 a
-<U+9225><U+6EFA>m
 taklng
 cm
 reauthorlzatlon.
@@ -922,7 +921,7 @@ cm
 a
 Welliestabllshed
 c-
-<U+9225><U+FFFD>
+<U+2018>
 thls
 actlvlty
 1::

@@ -155,6 +155,7 @@ of
 2.5
 percent
 of
+<U+201C>51-27mm
 TAX
 When
 data
@@ -194,6 +195,7 @@ liquid
 basls,
 rather
 than
+basls,<U+2018>
 the
 to
 $lS/metr1c
@@ -535,7 +537,7 @@ of
 the
 contract
 guarantee
-mum<U+7984>:
+mum<U+00BB>:
 complete
 Independence,
 am
@@ -2049,7 +2051,7 @@ of
 partles
 who
 are
-1dent1<U+62E2>1ed
+1dent1<U+00A3>1ed
 and
 connected
 waste
@@ -2136,7 +2138,7 @@ belleves
 the
 party
 1nsurance
-<U+9225><U+6F1A>pproach
+<U+201D>approach
 affords
 companles
 several
@@ -3121,7 +3123,7 @@ of
 dlsease
 are
 also
-1dent1<U+62E2>1ed
+1dent1<U+00A3>1ed
 as
 areas
 of
@@ -3153,7 +3155,7 @@ larger
 context
 the
 has
-1dent1<U+62E2>1ed
+1dent1<U+00A3>1ed
 15
 general
 target
@@ -3170,7 +3172,7 @@ proposals.
 Target
 And
 For
-Workers<U+9225><U+FFFD>
+Workers<U+201C>
 Compensatlon
 Refom
 Preventlon;

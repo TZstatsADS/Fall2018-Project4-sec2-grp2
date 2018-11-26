@@ -52,13 +52,11 @@ system
 cm
 pemlts
 mm
-performance<U+94FF><U+4E64>ased
 condltlons.
 T
 commlttee
 mmmmmms
 s.
-FU<U+9225><U+697B>MAN
 mmouucnou
 cm
 iSSuES,
@@ -70,7 +68,7 @@ electrlclty
 a
 thls
 envlronment
-Commltte<U+5E90>'5
+Commltte<U+00AE>'5
 stewardshlp.
 meetlng
 establlsh
@@ -218,8 +216,7 @@ a
 durlng
 comlng
 Dbjectlves
-energyitax<U+94FF><U+4E64>ased
-revenue<U+94FF><U+4FEB>eneratlng
+revenue<U+FB02>generatlng
 a
 A
 estlmated
@@ -264,7 +261,6 @@ comlng'year
 m
 leglslatlon
 mbble
-<U+94FF><U+4E7A>e
 addltlon.
 lowiprlced
 by
@@ -552,7 +548,7 @@ m
 dlfferences
 coumlttee
 by
-code<U+94FF><U+FFFD>'naklng
+code<U+FB02>'naklng
 whlch
 1ndustry
 by

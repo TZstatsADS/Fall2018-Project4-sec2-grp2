@@ -15,7 +15,7 @@ affectlng
 Commlttee
 functlons
 1ndustrlaliacadem1c
-<U+62E2>15:
+<U+00A3>15:
 opportunltles
 technlcal
 1ndustry
@@ -93,7 +93,7 @@ stresslng
 quallty
 chemlsts
 1ndustry.
-SWPLY<U+9225><U+6A60>EMAND
+SWPLY<U+2019>DEMAND
 looklng
 mm
 a
@@ -110,7 +110,7 @@ Foundatlbn.
 Sclentlflc
 Commlsslon,
 Englneerlng
-<U+9225><U+FFFD>
+<U+2018>
 lsslon
 Englneers
 Councll
@@ -168,7 +168,6 @@ thls
 chemlstry
 hlstorlcally
 modestly
-ft<U+9225><U+FFFD>
 5.
 chemlstry
 ecllned
@@ -423,7 +422,6 @@ n
 1ndustry,
 practlcal
 realltles
-35<U+9225><U+650E>1n15tratlon,
 marketlng,
 liaison
 mm
@@ -589,7 +587,7 @@ Commlttee
 commltee,
 submltted
 months,
-Chln<U+9225><U+6A94>an
+Chln<U+2019>nan
 commlttee
 contrlbutlons
 chemlstry

@@ -340,7 +340,7 @@ pollutlon
 from
 dredge
 and
-<U+62E2>111
+<U+00A3>111
 operatlons
 1n
 wetlands,
@@ -997,7 +997,7 @@ corporatlons
 15
 1ncreased
 The
-<U+8305>imonth
+<U+00E9>imonth
 perlod
 for
 longitem

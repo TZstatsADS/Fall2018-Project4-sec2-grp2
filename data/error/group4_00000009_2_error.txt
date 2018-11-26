@@ -295,14 +295,14 @@ a
 Hlth
 a
 declslon
-XTC<U+9225><U+6A87>eslgnated
+XTC<U+2019>deslgnated
 declslons
 mm
 addltlon
 m
 declslons
 a
-ITC<U+9225><U+6A87>eslgnated
+ITC<U+2019>deslgnated
 regulatlng
 electrlcal
 excludlng
@@ -356,7 +356,7 @@ cm
 declslons
 by
 testlng
-ITC<U+9225><U+6A87>eslgnated
+ITC<U+2019>deslgnated
 Hlth
 testlng
 testlng"
@@ -508,7 +508,7 @@ publlc
 completlng
 actlvlty
 unreai
-rlsk.<U+9225><U+FFFD>
+rlsk.<U+201C>
 whlch
 commlttee
 meetlng
@@ -623,7 +623,7 @@ thls
 Admlnlstratlon
 unplementlng
 reasonstle
-wlndow.<U+9225><U+FFFD>
+wlndow.<U+2018>
 crltlcal
 whlch
 W111

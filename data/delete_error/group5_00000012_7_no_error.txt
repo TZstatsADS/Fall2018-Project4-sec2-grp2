@@ -305,7 +305,7 @@ the
 and
 we
 have
-1dent1<U+62E2>1ed
+1dent1<U+00A3>1ed
 several
 new
 programs
@@ -806,6 +806,7 @@ of
 the
 products
 of
+<U+FB01>lms.
 The
 letter
 urged
@@ -1304,7 +1305,7 @@ Sectlon
 trade
 remedy
 petition
-<U+94FF><U+4E74>led
+<U+FB01>lled
 representatlves
 of
 Th1:
@@ -3167,7 +3168,7 @@ Butvlated
 The
 BET
 Panel
-<U+94FF><U+4E74>led
+<U+FB01>lled
 Citizen
 Petition
 the
@@ -3252,7 +3253,7 @@ scheme.
 lorobenzenes.
 jolnt
 petition
-<U+94FF><U+4E74>led
+<U+FB01>lled
 the
 Chlorobenzenes
 ogram

@@ -371,7 +371,7 @@ only
 few
 slanufacturers
 of
-<U+62E2>11m,
+<U+00A3>11m,
 and
 speclalty
 polymers.
@@ -840,6 +840,7 @@ re*
 enactment
 of
 the
+Smooti<U+FB02>awley
 13111
 of
 the

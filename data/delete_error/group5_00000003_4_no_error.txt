@@ -289,6 +289,7 @@ because
 Senators
 mium
 and
+<U+201C>Fwy,
 wanted
 to
 perf-ct
@@ -1329,7 +1330,7 @@ The
 med
 3
 have
-1dent1<U+62E2>1ed
+1dent1<U+00A3>1ed
 separatlon
 between
 "grassroots
@@ -2036,10 +2037,12 @@ Edward
 arkey.
 as
 Luken.
+Dro<U+FB02>rl
 Walgren,
 DrPArle
 ard
 Shelby,
+<U+201D>.1311
 Tauzln,
 Eckart,
 Drown
@@ -2596,6 +2599,7 @@ Liability.
 Senator
 John
 Danforth
+<U+201C>Ham,
 Chalman
 of
 the

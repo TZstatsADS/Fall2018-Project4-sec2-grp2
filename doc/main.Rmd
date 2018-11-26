@@ -105,7 +105,7 @@ The referenced papers are:
 
 3. Probabilistic techniques -- [SVM garbage detection](https://dl.acm.org/citation.cfm?doid=2034617.2034626)
 
-- features are in section 5 (you can choose not to implement ‘Levenshtein distance’ feature)
+- features are in section 5 (you can choose not to implement ???Levenshtein distance??? feature)
 
 
 In this statercode, we implement the first three rules in the first paper -- rule based techniques, as an example.
@@ -165,6 +165,81 @@ Here, in our code, we just simply remove the detected-errors.
 tesseract_delete_error_vec <- tesseract_vec[tesseract_if_clean] #1095
 ```
 
+```{r}
+library(topicmodels)
+```
+
+# data processing
+```{r}
+# read in non-error documents and form a corpus
+path <- "../output/delete_error/"
+file_names <- dir(path)
+dir_names <- paste(path, file_names, sep = '')
+test_ind <- rep(1:20) * 5
+test_set <- dir_names[test_ind]
+train_set <- dir_names[-test_ind]
+corpus <- vector('list', length = length(train_set))
+for (i in 1:length(train_set)){
+  file <- readLines(train_set[i])
+  corpus[[i]] <- file
+  writeLines(file, sub("delete_error", "train_set", train_set[i]))
+}
+for (i in 1:length(test_set)){
+  file <- readLines(test_set[i])
+  writeLines(file, sub('delete_error', 'test_set', test_set[i]))
+}
+save(corpus, file = '../output/corpus.RData')
+```
+
+
+```{r}
+# Replace word with word id
+vocab <- unique(unlist(corpus))
+corpus_wordid <- corpus
+for (i in 1:length(corpus)){
+  corpus_wordid[[i]] <- match(corpus[[i]], vocab)
+}
+save(corpus_wordid, file = '../output/corpus_wordid.RData')
+```
+
+
+```{r}
+# Generate document-term matrix
+doc_term <- matrix(0, length(corpus), length(vocab))
+for (i in 1:length(corpus)){
+  doc_term[i,] <- match(vocab, corpus[[i]])
+}
+doc_term[is.na(doc_term)] <- 0
+save(doc_term, file = '../output/document_term_matrix.RData')
+```
+
+# Train LDA model and generate test set probability
+```{r}
+lda_topic <- LDA(doc_term, 30)
+test_corpus <- vector('list', length = length(test_set))
+for (i in 1:length(test_set)){
+  file <- readLines(test_set[i])
+  test_corpus[[i]] <- file
+}
+save(test_corpus, file = '../output/test_corpus.RData')
+test_doc_term <- matrix(0, length(test_corpus), length(vocab))
+for (i in 1:length(test_corpus)){
+  test_doc_term[i,] <- match(vocab, test_corpus[[i]])
+}
+test_doc_term[is.na(test_doc_term)] <- 0
+save(test_doc_term, file = '../output/test_doc_term_matrix.RData')
+lda_inf <- posterior(lda_topic, test_doc_term)
+```
+
+```{r}
+# test set document-topic probability
+lda_inf$topics
+```
+
+```{r}
+# Generate test set term-topic probability
+lda_inf$terms[,1:10]
+```
 # Step 5 - Performance measure
 
 The two most common OCR accuracy measures are precision and recall. Both are relative measures of the OCR accuracy because they are computed as ratios of the correct output to the total output (precision) or input (recall). More formally defined,
@@ -196,7 +271,7 @@ kable(OCR_performance_table, caption="Summary of OCR performance")
 
 Besides the above required measurement, you are encouraged the explore more evaluation measurements. Here are some related references:
 
-1. Karpinski, R., Lohani, D., & Belaïd, A. *Metrics for Complete Evaluation of OCR Performance*. [pdf](https://csce.ucmss.com/cr/books/2018/LFS/CSREA2018/IPC3481.pdf)
+1. Karpinski, R., Lohani, D., & Bela??d, A. *Metrics for Complete Evaluation of OCR Performance*. [pdf](https://csce.ucmss.com/cr/books/2018/LFS/CSREA2018/IPC3481.pdf)
 
 - section 2.1 Text-to-Text evaluation
 

@@ -89,7 +89,6 @@ toplcs
 dlscussed
 avaliablllty
 perspectlves
-lssues,<U+9225><U+FFFD>
 captlves
 1:
 dlstrlbutlon.
@@ -230,8 +229,7 @@ mm
 Industry
 Councll
 Dlscusslons
-...Not1<U+62E2>1catlon
-Chemlcals.<U+9225><U+FFFD>
+...Not1<U+00A3>1catlon
 partlclpated
 meetlngs.
 natlonwlde
