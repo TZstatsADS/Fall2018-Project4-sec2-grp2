@@ -135,11 +135,11 @@ for(i in c(1:length(file_name_vec))){
   ##Remove error
   tesseract_delete_error_vec <- tesseract_vec[tesseract_if_clean]
   writeLines(tesseract_delete_error_vec, 
-             paste("../data/delete_error/",noerror_name,".txt",sep=""))
+             paste("../output/error_removed/",noerror_name,".txt",sep=""))
   
   ##Save errors in a folder
   tesseract_error_vec <- tesseract_vec[!tesseract_if_clean]
-  writeLines(tesseract_error_vec, paste("../data/error/",ifclean_name,".txt",sep=""))
+  writeLines(tesseract_error_vec, paste("../output/error/",ifclean_name,".txt",sep=""))
 }
 ```
 
