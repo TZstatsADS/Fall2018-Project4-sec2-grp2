@@ -78,14 +78,16 @@ Although we have processed the Tesseract OCR and save the output txt files in th
 for(i in c(1:length(file_name_vec))){
   current_file_name <- sub(".txt","",file_name_vec[i])
   ## png folder is not provided on github (the code is only on demonstration purpose)
-  current_tesseract_txt <- tesseract::ocr(paste("../data/png/",current_file_name,".png",sep=""))
+  current_tesseract_txt <- 
+    tesseract::ocr(paste("../data/png/",current_file_name,".png",sep=""))
   
   ### clean the tessetact text (separate line by "\n", delete null string, transter to lower case)
   clean_tesseract_txt <- strsplit(current_tesseract_txt,"\n")[[1]]
   clean_tesseract_txt <- clean_tesseract_txt[clean_tesseract_txt!=""]
   
   ### save tesseract text file
-  writeLines(clean_tesseract_txt, paste("../data/tesseract/",current_file_name,".txt",sep=""))
+  writeLines(clean_tesseract_txt, 
+             paste("../data/tesseract/",current_file_name,".txt",sep=""))
 }
 ```
 
@@ -113,28 +115,31 @@ In this statercode, we implement the first three rules in the first paper -- rul
 ```{r}
 #Error detection
 for(i in c(1:length(file_name_vec))){
-current_file_name <- sub(".txt","",file_name_vec[i])
-ifclean_name <- sub(".txt","_error",file_name_vec[i])
-noerror_name <- sub(".txt","_no_error",file_name_vec[i])
-
-## read the ground truth text
-current_ground_truth_txt <- readLines(paste("../data/ground_truth/",current_file_name,".txt",sep=""), warn=FALSE)
-
-## read the tesseract text
-current_tesseract_txt <- readLines(paste("../data/tesseract/",current_file_name,".txt",sep=""), warn=FALSE)
-clean_tesseract_txt <- paste(current_tesseract_txt, collapse = " ")
-
-## detect tesseract word error
-tesseract_vec <- str_split(clean_tesseract_txt," ")[[1]] #1124 tokens
-tesseract_if_clean <- unlist(lapply(tesseract_vec,ifCleanToken))
-
-##Remove error
-tesseract_delete_error_vec <- tesseract_vec[tesseract_if_clean]
-writeLines(tesseract_delete_error_vec, paste("../data/delete_error/",noerror_name,".txt",sep=""))
-
-##Save errors in a folder
-tesseract_error_vec <- tesseract_vec[!tesseract_if_clean]
-writeLines(tesseract_error_vec, paste("../data/error/",ifclean_name,".txt",sep=""))
+  current_file_name <- sub(".txt","",file_name_vec[i])
+  ifclean_name <- sub(".txt","_error",file_name_vec[i])
+  noerror_name <- sub(".txt","_no_error",file_name_vec[i])
+  
+  ## read the ground truth text
+  current_ground_truth_txt <- 
+    readLines(paste("../data/ground_truth/",current_file_name,".txt",sep=""), warn=FALSE)
+  
+  ## read the tesseract text
+  current_tesseract_txt <- 
+    readLines(paste("../data/tesseract/",current_file_name,".txt",sep=""), warn=FALSE)
+  clean_tesseract_txt <- paste(current_tesseract_txt, collapse = " ")
+  
+  ## detect tesseract word error
+  tesseract_vec <- str_split(clean_tesseract_txt," ")[[1]] #1124 tokens
+  tesseract_if_clean <- unlist(lapply(tesseract_vec,ifCleanToken))
+  
+  ##Remove error
+  tesseract_delete_error_vec <- tesseract_vec[tesseract_if_clean]
+  writeLines(tesseract_delete_error_vec, 
+             paste("../data/delete_error/",noerror_name,".txt",sep=""))
+  
+  ##Save errors in a folder
+  tesseract_error_vec <- tesseract_vec[!tesseract_if_clean]
+  writeLines(tesseract_error_vec, paste("../data/error/",ifclean_name,".txt",sep=""))
 }
 ```
 
