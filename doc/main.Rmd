@@ -240,6 +240,11 @@ lda_inf$topics
 # Generate test set term-topic probability
 lda_inf$terms[,1:10]
 ```
+
+```{r}
+# Output test set topic probabilities
+save(lda_inf, file = '../output/test_topic_prob.RData')
+```
 # Step 5 - Performance measure
 
 The two most common OCR accuracy measures are precision and recall. Both are relative measures of the OCR accuracy because they are computed as ratios of the correct output to the total output (precision) or input (recall). More formally defined,

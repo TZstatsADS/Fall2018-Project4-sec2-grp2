@@ -85,3 +85,8 @@ lda_inf$topics
 lda_inf$terms[,1:10]
 ```
 
+```{r}
+# Output test set topic probabilities
+save(lda_inf, file = '../output/test_topic_prob.RData')
+```
+
