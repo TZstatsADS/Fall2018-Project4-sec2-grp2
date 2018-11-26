@@ -78,16 +78,14 @@ Although we have processed the Tesseract OCR and save the output txt files in th
 for(i in c(1:length(file_name_vec))){
   current_file_name <- sub(".txt","",file_name_vec[i])
   ## png folder is not provided on github (the code is only on demonstration purpose)
-  current_tesseract_txt <- 
-    tesseract::ocr(paste("../data/png/",current_file_name,".png",sep=""))
+  current_tesseract_txt <- tesseract::ocr(paste("../data/png/",current_file_name,".png",sep=""))
   
   ### clean the tessetact text (separate line by "\n", delete null string, transter to lower case)
   clean_tesseract_txt <- strsplit(current_tesseract_txt,"\n")[[1]]
   clean_tesseract_txt <- clean_tesseract_txt[clean_tesseract_txt!=""]
   
   ### save tesseract text file
-  writeLines(clean_tesseract_txt, 
-             paste("../data/tesseract/",current_file_name,".txt",sep=""))
+  writeLines(clean_tesseract_txt, paste("../data/tesseract/",current_file_name,".txt",sep=""))
 }
 ```
 
@@ -107,7 +105,7 @@ The referenced papers are:
 
 3. Probabilistic techniques -- [SVM garbage detection](https://dl.acm.org/citation.cfm?doid=2034617.2034626)
 
-- features are in section 5 (you can choose not to implement ???Levenshtein distance??? feature)
+- features are in section 5 (you can choose not to implement ‘Levenshtein distance’ feature)
 
 
 In this statercode, we implement the first three rules in the first paper -- rule based techniques, as an example.
@@ -115,31 +113,28 @@ In this statercode, we implement the first three rules in the first paper -- rul
 ```{r}
 #Error detection
 for(i in c(1:length(file_name_vec))){
-  current_file_name <- sub(".txt","",file_name_vec[i])
-  ifclean_name <- sub(".txt","_error",file_name_vec[i])
-  noerror_name <- sub(".txt","_no_error",file_name_vec[i])
-  
-  ## read the ground truth text
-  current_ground_truth_txt <- 
-    readLines(paste("../data/ground_truth/",current_file_name,".txt",sep=""), warn=FALSE)
-  
-  ## read the tesseract text
-  current_tesseract_txt <- 
-    readLines(paste("../data/tesseract/",current_file_name,".txt",sep=""), warn=FALSE)
-  clean_tesseract_txt <- paste(current_tesseract_txt, collapse = " ")
-  
-  ## detect tesseract word error
-  tesseract_vec <- str_split(clean_tesseract_txt," ")[[1]] #1124 tokens
-  tesseract_if_clean <- unlist(lapply(tesseract_vec,ifCleanToken))
-  
-  ##Remove error
-  tesseract_delete_error_vec <- tesseract_vec[tesseract_if_clean]
-  writeLines(tesseract_delete_error_vec, 
-             paste("../output/error_removed/",noerror_name,".txt",sep=""))
-  
-  ##Save errors in a folder
-  tesseract_error_vec <- tesseract_vec[!tesseract_if_clean]
-  writeLines(tesseract_error_vec, paste("../output/error/",ifclean_name,".txt",sep=""))
+current_file_name <- sub(".txt","",file_name_vec[i])
+ifclean_name <- sub(".txt","_error",file_name_vec[i])
+noerror_name <- sub(".txt","_no_error",file_name_vec[i])
+
+## read the ground truth text
+current_ground_truth_txt <- readLines(paste("../data/ground_truth/",current_file_name,".txt",sep=""), warn=FALSE,encoding = "UTF-8")
+
+## read the tesseract text
+current_tesseract_txt <- readLines(paste("../data/tesseract/",current_file_name,".txt",sep=""), warn=FALSE,encoding = "UTF-8")
+clean_tesseract_txt <- paste(current_tesseract_txt, collapse = " ")
+
+## detect tesseract word error
+tesseract_vec <- str_split(clean_tesseract_txt," ")[[1]] #1124 tokens
+tesseract_if_clean <- unlist(lapply(tesseract_vec,ifCleanToken))
+
+##Remove error
+tesseract_delete_error_vec <- tesseract_vec[tesseract_if_clean]
+writeLines(tesseract_delete_error_vec, paste("../data/delete_error/",noerror_name,".txt",sep=""),useBytes = T)
+
+##Save errors in a folder
+tesseract_error_vec <- tesseract_vec[!tesseract_if_clean]
+writeLines(tesseract_error_vec, paste("../data/error/",ifclean_name,".txt",sep=""),useBytes = T)
 }
 ```
 
@@ -167,10 +162,6 @@ The referenced papers are:
 
 Here, in our code, we just simply remove the detected-errors.
 ```{r}
-tesseract_delete_error_vec <- tesseract_vec[tesseract_if_clean] #1095
-```
-
-```{r}
 library(topicmodels)
 ```
 
@@ -195,8 +186,6 @@ for (i in 1:length(test_set)){
 }
 save(corpus, file = '../output/corpus.RData')
 ```
-
-
 ```{r}
 # Replace word with word id
 vocab <- unique(unlist(corpus))
@@ -250,6 +239,7 @@ lda_inf$terms[,1:10]
 # Output test set topic probabilities
 save(lda_inf, file = '../output/test_topic_prob.RData')
 ```
+
 # Step 5 - Performance measure
 
 The two most common OCR accuracy measures are precision and recall. Both are relative measures of the OCR accuracy because they are computed as ratios of the correct output to the total output (precision) or input (recall). More formally defined,
@@ -279,9 +269,22 @@ OCR_performance_table["word_wise_precision","Tesseract_with_postprocessing"] <- 
 kable(OCR_performance_table, caption="Summary of OCR performance")
 ```
 
+#letter-level performance measure
+```{r}
+#use the RETAS method
+#Step 0. Import libraries
+library(dplyr)
+library(tm)
+
+#Step 1. Find unique words that intersected
+ground_truth_vec <- str_split(paste(current_ground_truth_txt, collapse = " ")," ")[[1]]
+intersect_vec_unique <- vecsets::vintersect(tolower(ground_truth_vec), tolower(tesseract_vec))
+intersect_vec_unique <- unique(intersect_vec_unique) %>% removePunctuation() %>% removeNumbers()
+intersect_vec_unique <- intersect_vec_unique[intersect_vec_unique!=""]
+```
 Besides the above required measurement, you are encouraged the explore more evaluation measurements. Here are some related references:
 
-1. Karpinski, R., Lohani, D., & Bela??d, A. *Metrics for Complete Evaluation of OCR Performance*. [pdf](https://csce.ucmss.com/cr/books/2018/LFS/CSREA2018/IPC3481.pdf)
+1. Karpinski, R., Lohani, D., & Belaïd, A. *Metrics for Complete Evaluation of OCR Performance*. [pdf](https://csce.ucmss.com/cr/books/2018/LFS/CSREA2018/IPC3481.pdf)
 
 - section 2.1 Text-to-Text evaluation
 
