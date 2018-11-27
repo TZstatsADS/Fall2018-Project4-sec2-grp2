@@ -182,16 +182,22 @@ library(topicmodels)
 ```{r}
 # read in non-error documents and form a corpus
 path <- "../output/delete_error/"
+data_source <- '../data/ground_truth/'
 file_names <- dir(path)
 dir_names <- paste(path, file_names, sep = '')
 test_ind <- 1:20 * 5
-test_set <- dir_names[test_ind]
-train_set <- dir_names[-test_ind]
+test_set <- file_names[test_ind]
+train_set <- file_names[-test_ind]
+test_set <- paste(path, test_set, sep = '')
+train_set <- paste(data_source, train_set, sep = '')
 corpus <- vector('list', length = length(train_set))
 for (i in 1:length(train_set)){
   file <- readLines(train_set[i])
-  corpus[[i]] <- file
-  writeLines(file, sub("delete_error", "train_set", train_set[i]))
+  corpus[[i]] <- unlist(strsplit(file[1], split = ' '))
+  for (j in 2:length(file)){
+    corpus[[i]] <- c(corpus[[i]], unlist(strsplit(file[j], split = ' ')))
+  }
+  writeLines(file, sub("/data/ground_truth/", "/output/train_set/", train_set[i]))
 }
 for (i in 1:length(test_set)){
   file <- readLines(test_set[i])
@@ -214,7 +220,10 @@ save(corpus_wordid, file = '../output/corpus_wordid.RData')
 # Generate document-term matrix
 doc_term <- matrix(0, length(corpus), length(vocab))
 for (i in 1:length(corpus)){
-  doc_term[i,] <- match(vocab, corpus[[i]])
+  w_id <- match(corpus[[i]], vocab)
+  for (j in 1:length(vocab)){
+    doc_term[i,j] <- sum(w_id == j)
+  }
 }
 doc_term[is.na(doc_term)] <- 0
 save(doc_term, file = '../output/document_term_matrix.RData')
