@@ -174,6 +174,48 @@ The referenced papers are:
 
 Here, in our code, we just simply remove the detected-errors.
 
+
+## Compute the OCR Confusion Matrix
+```{r ConfusionMatrix}
+source("../lib/ConfusionMatrix.R")
+```
+
+```{r unique letters}
+
+#Get the unique letters set
+
+## read the delete_error/tesseract text
+path = "../output/delete_error/"
+file_names = dir(path)
+delete_error_dir = paste(path, file_names, sep = '')
+## read the ground truth
+path = "../data/ground_truth/"
+# file_names = dir(path)
+truth_dir = paste(path, file_names, sep = '')
+
+source("../lib/ConfusionMatrix.R")
+
+letters=uniqueletters(c(delete_error_dir,truth_dir))
+```
+
+```{r confusion matrix}
+# Fuzzy Matching & Complete Confusion Matrix
+CANDIDATE_NUM=3
+SIM_THRES=0.5
+Cfs_matrix=confusion(truth_dir,delete_error_dir,letters)
+
+
+
+# Visualization
+exist=which(Cfs_matrix>0,arr.ind = T)
+exist=exist[order(exist[,1]),]
+
+cat("ocr","truth","prob","\n")
+for(i in 1:nrow(exist)){
+  cat(letters[exist[i,1]],letters[exist[i,2]],Cfs_matrix[exist[i,1],exist[i,2]],"\n")
+}
+```
+
 ```{r}
 library(topicmodels)
 ```
