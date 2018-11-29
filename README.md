@@ -30,8 +30,8 @@ Term: Fall 2018
 + Error Correction: We implemented the word candidate score computing method by Michael L. Wick, Michael G. Ross and Erik G. Learned-Miller, *Context-Sensitive Error Correction: Using Topic Models to Improve OCR*.
 
 	+ Topic Model: in this project, we used the Latent Dirichlet Allocation by David Blei to generate the topic-document and topic-term probabilities. We split the data into test set and training set, and used the ground truth to train the topic model. The doc-topic matrix returns the probabilities of each of the 30 topics in each documents, and the term-topic matrix returns the probabilities of each word appearing under each of the 30 topics.
-	+ Confusion Characters: the probabilities of mistaking one character from another character is also used in calculating the score of word candidate. For example, i and j may have higher probability to be mistaken than other character pairs. Our confusion matrix included not only letter pairs but also character pairs and the dimension is 118*118.
-	+ Candidate Score: Words that have the same length and no more then 2 different characters to a word to are the candidates of this word. The score of a candidate is the probability of this word in this document (doc-topic * topic-term), plus the summation of the probabilities of confusing character pairs. To avoid prob = 0, a bias is added.
+	+ Confusion Characters: the probabilities of mistaking one character from another character is also used in calculating the score of word candidate. For example, i and j may have higher probability to be mistaken than other character pairs. Our confusion matrix included not only alphabet pairs but also numeric&symbol pairs and the dimension is 118*118.
+	+ Candidate Score: Words that have the same length and no more then 2 different characters to a word to are the candidates of this word. The score of a candidate is the probability of this word in this document (doc-topic * topic-term), plus the summation of the probabilities of confusing character pairs. To avoid prob = 0, a small bias is added to probabilities calculated by topic model.
 	
 + Performance Measurement
 	+ Step 1:find unique words in two texts separately. The unique words have to be intersected(only the ones that appear in both texts are used).
@@ -47,7 +47,7 @@ Term: Fall 2018
 	+ Yu, Wenting
 + Error Correction
 	+ Cui, Jiayi (Building LDA model and generating topic-document-word probilities)
-	+ Yang, Yang (Generating confusion character probabilities and reducing time complexity)
+	+ Yang, Yang (Complete confusion probability matrix with fuzzy matching, Design score architecture and speed up fetching with new [pythondict-like Data Structure](https://github.com/jokerkeny/Dict-for-R) by 200 times)
 	+ Wang, Nannan (Computing word candidate scores and substituting)
 + Performance Measurement
 	+ Cai, Yang (Implemented RETAS Algorithm to measure the performance of detection method)
