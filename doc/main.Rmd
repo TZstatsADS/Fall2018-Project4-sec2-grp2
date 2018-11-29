@@ -364,15 +364,15 @@ r_pw <- NA
 p_tw <- NA
 p_pw <- NA
 
-correct_path <- "C:/Users/SHE3/Desktop/Fall2018-Project4-sec2--sec2proj4_grp2/output/correct/"
+correct_path <- "../output/correct/"
 correct_names <- dir(correct_path)
 correct_dir_names <- paste0(correct_path,correct_names,sep='')
 
-truth_path <- "C:/Users/SHE3/Desktop/Fall2018-Project4-sec2--sec2proj4_grp2/data/ground_truth/"
+truth_path <- "../data/ground_truth/"
 truth_names <- dir(truth_path)
 dir_names <- paste0(truth_path,truth_names)
 
-tesseract_path <- "C:/Users/SHE3/Desktop/Fall2018-Project4-sec2--sec2proj4_grp2/data/tesseract/"
+tesseract_path <- "../data/tesseract/"
 t_dir_names <- paste(tesseract_path,truth_names,sep='')
 
 for (i in 1:length(correct_names)){
@@ -412,15 +412,15 @@ OCR_performance_table
 
 #letter-level performance measure for error detection
 ```{r}
-noerror_path <- "C:/Users/SHE3/Desktop/Fall2018-Project4-sec2--sec2proj4_grp2/output/delete_error/"
+noerror_path <- "../output/delete_error/"
 file_names <- dir(noerror_path)
 noerror_dir_names <- paste(noerror_path, file_names, sep = '')
 
-truth_path <- "C:/Users/SHE3/Desktop/Fall2018-Project4-sec2--sec2proj4_grp2/data/ground_truth/"
+truth_path <- "../data/ground_truth/"
 truth_names <- dir(truth_path)
 dir_names <- paste0(truth_path,truth_names)
 
-tesseract_path <- "C:/Users/SHE3/Desktop/Fall2018-Project4-sec2--sec2proj4_grp2/data/tesseract/"
+tesseract_path <- "../data/tesseract/"
 t_dir_names <- paste(tesseract_path,truth_names,sep='')
 
 measurement(tesseract_dir=t_dir_names,result_dir = noerror_dir_names,truth_dir = dir_names)
