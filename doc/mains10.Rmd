@@ -355,13 +355,13 @@ problda <- function(wc){
 probcf <- function(wc,wi){
   ree = 1
   n=nchar(wc)
-  wi=str_split(wi,"")[[1]]
-  wc=str_split(wc,"")[[1]]
+  wi=strsplit(wi,"")[[1]]
+  wc=strsplit(wc,"")[[1]]
   ind=paste(wi,wc,sep="")
   for(i in ind){
     ree = ree*my_cfs[[i]]
   }
-  ree[is.na(ree)] = 0
+  # ree[is.na(ree)] = 0
   return(ree)
 }
 ```
