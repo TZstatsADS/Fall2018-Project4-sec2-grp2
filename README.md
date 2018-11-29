@@ -43,14 +43,18 @@ Term: Fall 2018
 	
 **Contribution statement**: 
 + Error Detection
-	+ Cai, Yang
+	+ Cai, Yang (Implemented error detection method with rule based technique)
 	+ Yu, Wenting
 + Error Correction
 	+ Cui, Jiayi (Building LDA model and generating topic-document-word probilities)
 	+ Yang, Yang (Generating confusion character probabilities and reducing time complexity)
 	+ Wang, Nannan (Computing word candidate scores and substituting)
 + Performance Measurement
-	+ Cai, Yang
+	+ Cai, Yang (Implemented RETAS Algorithm to measure the performance of detection method)
+
+**References**:
++ Kulp, Scott, and April Kontostathis. On Retrieving Legal Files: Shortening Documents and Weeding Out Garbage        webpages.ursinus.edu/akontostathis/KulpKontostathisFinal.pdf
++ Yalniz, Ismet & Manmatha, R. (2011). A Fast Alignment Scheme for Automatic OCR Evaluation of Books. Proceedings of the International Conference on Document Analysis and Recognition, ICDAR. 754 - 758. 10.1109/ICDAR.2011.157. 
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
