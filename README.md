@@ -16,15 +16,18 @@ Term: Fall 2018
 
 + Project summary: In this project, we created an OCR post-processing procedure to enhance Tesseract OCR output based on Latent Dirichlet Allocation topic model.
 
-+ Error Detection
-
-We implemented the 8 rules by Scott Kulp and April Kontostathis, *On Retrieving Legal Files: Shortening Documents and Weeding Out Garbage*.
++ Error Detection: We implemented the 8 rules by Scott Kulp and April Kontostathis, *On Retrieving Legal Files: Shortening Documents and Weeding Out Garbage*.
  
- 	+ If a string is more than 20 characters in length, it is garbage. This rule was taken from rmgarbage, but shortened from 40 to 20 characters.	+ If the number of punctuation characters in a string is greater than the number of alphanumeric characters, it is garbage. This rule was taken from rmgarbage.	+ Ignoring the first and last characters in a string, if there are two or more different punctuation characters in the string, it is garbage. This rule was taken from rmgarbage.	+ If there are three or more identical characters in a row in a string, it is garbage. This rule was taken from rmgarbage, but shortened from four or more characters to three.	+ If the number of uppercase characters in a string is greater than the number of lowercase characters, and if the number of uppercase characters is less than the total number of characters in the string, it is garbage. This is a new rule we developed when we saw that OCR errors often created excessive numbers of uppercase characters, but normally, in English, there is usually no more than one uppercase character in a term. However, some- times real English words appeared in all uppercase characters, which is acceptable, so words that contain only uppercase characters are not considered garbage.	+ If all the characters in a string are alphabetic, and if the number of consonants in the string is greater than 8 times the number of vowels in the string, or vice-versa, it is garbage. This rule was taken from rmgarbage, but the threshold was shortened from 10 to 8.	+ If there are four or more consecutive vowels in the string or five or more consecutive consonants in the string, it is garbage. This is a new rule we developed when we noticed that real English words with these traits are rare, but this property appeared often in OCR errors.	+ If the first and last characters in a string are both lowercase and any other character is uppercase, it is garbage. This rule was taken from rmgarbage.
+ 	+ If a string is more than 20 characters in length, it is garbage. This rule was taken from rmgarbage, but shortened from 40 to 20 characters.
+	+ If the number of punctuation characters in a string is greater than the number of alphanumeric characters, it is garbage. This rule was taken from rmgarbage.
+	+ Ignoring the first and last characters in a string, if there are two or more different punctuation characters in the string, it is garbage. This rule was taken from rmgarbage.
+	+ If there are three or more identical characters in a row in a string, it is garbage. This rule was taken from rmgarbage, but shortened from four or more characters to three.
+	+ If the number of uppercase characters in a string is greater than the number of lowercase characters, and if the number of uppercase characters is less than the total number of characters in the string, it is garbage. This is a new rule we developed when we saw that OCR errors often created excessive numbers of uppercase characters, but normally, in English, there is usually no more than one uppercase character in a term. However, some- times real English words appeared in all uppercase characters, which is acceptable, so words that contain only uppercase characters are not considered garbage.
+	+ If all the characters in a string are alphabetic, and if the number of consonants in the string is greater than 8 times the number of vowels in the string, or vice-versa, it is garbage. This rule was taken from rmgarbage, but the threshold was shortened from 10 to 8.
+	+ If there are four or more consecutive vowels in the string or five or more consecutive consonants in the string, it is garbage. This is a new rule we developed when we noticed that real English words with these traits are rare, but this property appeared often in OCR errors.
+	+ If the first and last characters in a string are both lowercase and any other character is uppercase, it is garbage. This rule was taken from rmgarbage.
 	
-+ Error Correction
-
-We implemented the word candidate score computing method by Michael L. Wick, Michael G. Ross and Erik G. Learned-Miller, *Context-Sensitive Error Correction: Using Topic Models to Improve OCR*.
++ Error Correction: We implemented the word candidate score computing method by Michael L. Wick, Michael G. Ross and Erik G. Learned-Miller, *Context-Sensitive Error Correction: Using Topic Models to Improve OCR*.
 
 	+ Topic Model: in this project, we used the Latent Dirichlet Allocation by David Blei to generate the topic-document and topic-term probabilities. We split the data into test set and training set, and used the ground truth to train the topic model. The doc-topic matrix returns the probabilities of each of the 30 topics in each documents, and the term-topic matrix returns the probabilities of each word appearing under each of the 30 topics.
 	+ Confusion Characters: the probabilities of mistaking one character from another character is also used in calculating the score of word candidate. For example, i and j may have higher probability to be mistaken than other character pairs. Our confusion matrix included not only letter pairs but also character pairs and the dimension is 118*118.
@@ -35,7 +38,8 @@ We implemented the word candidate score computing method by Michael L. Wick, Mic
 	+ Step 2: Use unique words as anchors to split each segment into smaller ones
 	+ Step 3: Delete unique words from all segments (delete the first and the last word in every segments)
 	+ Step 4: use Lenshtein distance to calculate the number of incorrect characters in every segments
-	+ Step 5: calculate precision and recall 
+	+ Step 5: calculate precision and recall 
+
 	
 **Contribution statement**: 
 + Error Detection
