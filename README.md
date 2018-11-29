@@ -44,7 +44,7 @@ Term: Fall 2018
 **Contribution statement**: 
 + Error Detection
 	+ Cai, Yang (Implemented error detection method with rule based technique)
-	+ Yu, Wenting
+	+ Yu, Wenting (Implemented error detection method with rule based technique)
 + Error Correction
 	+ Cui, Jiayi (Building LDA model and generating topic-document-word probilities)
 	+ Yang, Yang (Complete confusion probability matrix with fuzzy matching, Design score architecture and speed up fetching with new [pythondict-like Data Structure](https://github.com/jokerkeny/Dict-for-R) by 200 times)
