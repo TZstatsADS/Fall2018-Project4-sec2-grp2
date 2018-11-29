@@ -48,7 +48,7 @@ Term: Fall 2018
 + Error Correction
 	+ Cui, Jiayi (Building LDA model and generating topic-document-word probilities)
 	+ Yang, Yang (Complete confusion probability matrix with fuzzy matching, Design score architecture and speed up fetching with new [pythondict-like Data Structure](https://github.com/jokerkeny/Dict-for-R) by 200 times)
-	+ Wang, Nannan (Computing word candidate scores and substituting)
+	+ Wang, Nannan (Computing word candidate scores and substituting/Presenter)
 + Performance Measurement
 	+ Cai, Yang (Implemented RETAS Algorithm to measure the performance of detection method)
 
