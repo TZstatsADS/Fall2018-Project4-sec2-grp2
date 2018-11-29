@@ -1,14 +1,6 @@
 ---
 title: 'Optical character recognition (OCR)'
-output: 
-  html_document:
-    toc: true
-    toc_depth: 2
-    toc_float:
-      collapsed: false
-      smooth_scroll: false
-    number_sections: true
-    code_folding: hide
+output: html_notebook
 ---
 
 Jing Wu
@@ -84,6 +76,7 @@ if (!require("tm")) install.packages("tm");library(tm)
 
 source('../lib/ifCleanToken.R')
 source('../lib/measurement.R')
+source('../lib/measurement_correct.R')
 file_name_vec <- list.files("../data/ground_truth") #100 files in total
 ```
 
@@ -131,8 +124,7 @@ In this statercode, we implement the first three rules in the first paper -- rul
 #Error detection
 for(i in c(1:length(file_name_vec))){
 current_file_name <- sub(".txt","",file_name_vec[i])
-ifclean_name <- sub(".txt","_error",file_name_vec[i])
-noerror_name <- sub(".txt","_no_error",file_name_vec[i])
+
 
 ## read the ground truth text
 current_ground_truth_txt <- readLines(paste("../data/ground_truth/",current_file_name,".txt",sep=""), warn=FALSE,encoding = "UTF-8")
@@ -147,11 +139,11 @@ tesseract_if_clean <- unlist(lapply(tesseract_vec,ifCleanToken))
 
 ##Remove error
 tesseract_delete_error_vec <- tesseract_vec[tesseract_if_clean]
-writeLines(tesseract_delete_error_vec, paste("../data/delete_error/",noerror_name,".txt",sep=""),useBytes = T)
+writeLines(tesseract_delete_error_vec, paste("../output/delete_error/",current_file_name,".txt",sep=""),useBytes = T)
 
 ##Save errors in a folder
 tesseract_error_vec <- tesseract_vec[!tesseract_if_clean]
-writeLines(tesseract_error_vec, paste("../data/error/",ifclean_name,".txt",sep=""),useBytes = T)
+writeLines(tesseract_error_vec, paste("../output/error/",current_file_name,".txt",sep=""),useBytes = T)
 }
 ```
 
@@ -315,7 +307,8 @@ where *items* refer to either characters or words, and ground truth is the origi
 Both *precision* and *recall* are mathematically convenient measures because their numeric values are some decimal fractions in the range between 0.0 and 1.0, and thus can be written as percentages. For instance, recall is the percentage of words in the original text correctly found by the OCR engine, whereas precision is the percentage of correctly found words with respect to the total word count of the OCR output. Note that in the OCR-related literature, the term OCR accuracy often refers to recall.
 
 Here, we only finished the **word level evaluation** criterions, you are required to complete the **letter-level** part.
-##word-level performance measure 
+
+##word-level performance measure for error detection
 ```{r}
 OCR_performance_table <- data.frame("Tesseract" = rep(NA,2),
                                     "Tesseract_with_postprocessing" = rep(NA,2))
@@ -328,7 +321,7 @@ p_pw <- NA
 
 for (i in 1:length(file_name_vec)){
 current_file_name <- sub(".txt","",file_name_vec[i])
-noerror_name <- sub(".txt","_no_error",file_name_vec[i])
+
 ## read ground truth text
 current_ground_truth_txt <- readLines(paste("../data/ground_truth/",current_file_name,".txt",sep=""), warn=FALSE,encoding = "UTF-8")
 ground_truth_vec <- str_split(paste(current_ground_truth_txt, collapse = " ")," ")[[1]]
@@ -339,7 +332,7 @@ clean_tesseract_txt <- paste(current_tesseract_txt, collapse = " ")
 tesseract_vec <- str_split(clean_tesseract_txt," ")[[1]]
 
 ## read post processed text
-tesseract_delete_txt <- readLines(paste("../data/delete_error/",noerror_name,".txt",sep=""),warn = FALSE,encoding = "UTF-8")
+tesseract_delete_txt <- readLines(paste("../output/delete_error/",current_file_name,".txt",sep=""),warn = FALSE,encoding = "UTF-8")
 tesseract_delete_error_vec <- str_split(paste(tesseract_delete_txt,collapse = " ")," ")[[1]]
 
 #calculate wordwise performance measure
@@ -360,9 +353,66 @@ OCR_performance_table["word_wise_precision","Tesseract_with_postprocessing"] <- 
 OCR_performance_table
 ```
 
-#letter-level performance measure
+#word-level performance measure for error correction
 ```{r}
-noerror_path <- "C:/Users/SHE3/Desktop/Fall2018-Project4-sec2--sec2proj4_grp2/data/delete_error/"
+OCR_performance_table <- data.frame("Tesseract" = rep(NA,2),
+                                    "Tesseract_with_postprocessing" = rep(NA,2))
+row.names(OCR_performance_table) <- c("word_wise_recall","word_wise_precision")
+
+r_tw <- NA
+r_pw <- NA
+p_tw <- NA
+p_pw <- NA
+
+correct_path <- "C:/Users/SHE3/Desktop/Fall2018-Project4-sec2--sec2proj4_grp2/output/correct/"
+correct_names <- dir(correct_path)
+correct_dir_names <- paste0(correct_path,correct_names,sep='')
+
+truth_path <- "C:/Users/SHE3/Desktop/Fall2018-Project4-sec2--sec2proj4_grp2/data/ground_truth/"
+truth_names <- dir(truth_path)
+dir_names <- paste0(truth_path,truth_names)
+
+tesseract_path <- "C:/Users/SHE3/Desktop/Fall2018-Project4-sec2--sec2proj4_grp2/data/tesseract/"
+t_dir_names <- paste(tesseract_path,truth_names,sep='')
+
+for (i in 1:length(correct_names)){
+## read ground truth text
+ current_ground_truth_txt <- readLines(paste0(dir_names[i]), warn=FALSE,encoding = "UTF-8")
+    ground_truth_vec <- str_split(paste(current_ground_truth_txt, collapse = " ")," ")[[1]]
+ground_truth_vec <- str_split(paste(current_ground_truth_txt, collapse = " ")," ")[[1]]
+
+## read the tesseract text
+current_tesseract_txt <- readLines(paste0(t_dir_names[i]), warn=FALSE,encoding = "UTF-8")
+clean_tesseract_txt <- paste(current_tesseract_txt, collapse = " ")
+tesseract_vec <- str_split(clean_tesseract_txt," ")[[1]]
+
+## read post processed text
+tesseract_delete_txt <- readLines(paste0(correct_dir_names[i]),warn = FALSE,encoding = "UTF-8")
+tesseract_delete_error_vec <- str_split(paste(tesseract_delete_txt,collapse = " ")," ")[[1]]
+
+#calculate wordwise performance measure
+old_intersect_vec <- vecsets::vintersect(tolower(ground_truth_vec), tolower(tesseract_vec)) 
+new_intersect_vec <- vecsets::vintersect(tolower(ground_truth_vec), tolower(tesseract_delete_error_vec)) 
+
+r_tw[i] <- length(old_intersect_vec)/length(ground_truth_vec)
+r_pw[i] <- length(new_intersect_vec)/length(ground_truth_vec)
+p_tw[i] <- length(old_intersect_vec)/length(tesseract_vec)
+p_pw[i] <- length(new_intersect_vec)/length(tesseract_delete_error_vec)
+}
+
+OCR_performance_table["word_wise_recall","Tesseract"] <- mean(r_tw)
+OCR_performance_table["word_wise_precision","Tesseract"] <- mean(p_tw)
+OCR_performance_table["word_wise_recall","Tesseract_with_postprocessing"] <- mean(r_pw)
+OCR_performance_table["word_wise_precision","Tesseract_with_postprocessing"] <- mean(p_pw)
+
+OCR_performance_table
+```
+
+
+
+#letter-level performance measure for error detection
+```{r}
+noerror_path <- "C:/Users/SHE3/Desktop/Fall2018-Project4-sec2--sec2proj4_grp2/output/delete_error/"
 file_names <- dir(noerror_path)
 noerror_dir_names <- paste(noerror_path, file_names, sep = '')
 
@@ -376,6 +426,12 @@ t_dir_names <- paste(tesseract_path,truth_names,sep='')
 measurement(tesseract_dir=t_dir_names,result_dir = noerror_dir_names,truth_dir = dir_names)
 
 ```
+
+#letter-level performance measure for error correction
+```{r}
+measurement_correct(tesseract_dir=t_dir_names,result_dir=correct_dir_names,truth_dir=dir_names)
+```
+
 Besides the above required measurement, you are encouraged the explore more evaluation measurements. Here are some related references:
 
 1. Karpinski, R., Lohani, D., & Belaïd, A. *Metrics for Complete Evaluation of OCR Performance*. [pdf](https://csce.ucmss.com/cr/books/2018/LFS/CSREA2018/IPC3481.pdf)
