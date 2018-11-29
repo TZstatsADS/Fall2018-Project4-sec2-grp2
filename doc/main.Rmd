@@ -56,6 +56,16 @@ BUT this is not the FOCUS of this project!!!
 
 In this project, we are going to **focus on the third stage -- post-processing**, which includes two tasks: *error detection* and *error correction*.  
 
+# Step 0 - set up controls for evaluation experiments.
+
+In this chunk, we have a set of controls for the evaluation experiments. 
+
++ (T/F) Compute new OCR Confusion Probability Matrix
+```{r controls}
+COMPUTE.CFS=FALSE
+```
+
+
 # Step 1 - Load library and source code
 ```{r, warning=FALSE, message = FALSE}
 if (!require("devtools")) install.packages("devtools")
@@ -172,13 +182,6 @@ Here, in our code, we just simply remove the detected-errors.
 
 ## Compute the OCR Confusion Matrix
 ```{r ConfusionMatrix}
-source("../lib/ConfusionMatrix.R")
-```
-
-```{r unique letters}
-
-#Get the unique letters set
-
 ## read the ocr text
 path = "../data/tesseract/"
 file_names = dir(path)
@@ -188,23 +191,25 @@ path = "../data/ground_truth/"
 # file_names = dir(path)
 truth_dir = paste(path, file_names, sep = '')
 
-letters=uniqueletters(c(ocr_dir,truth_dir))
-```
-
-```{r confusion matrix}
-# Fuzzy Matching & Complete Confusion Matrix
-CANDIDATE_NUM=5
-SIM_THRES=0.5
-Cfs_matrix=confusion(truth_dir,ocr_dir,letters)
-
-
+if(COMPUTE.CFS){
+  source("../lib/ConfusionMatrix.R")
+  
+  #Get the unique letters set
+  letters=uniqueletters(c(ocr_dir,truth_dir))
+  
+  # Fuzzy Matching & Complete Confusion Matrix
+  CANDIDATE_NUM=5
+  SIM_THRES=0.5
+  Cfs_matrix=confusion(truth_dir,ocr_dir,letters)
+  save(Cfs_matrix, letters, file = "../output/Cfs_matrix.RData")
+}else  load("../output/Cfs_matrix.RData");
 
 # Visualization
 exist=which(Cfs_matrix>0,arr.ind = T)
 exist=exist[order(exist[,1]),]
 
 cat("ocr","truth","prob","\n")
-for(i in 1:nrow(exist)){
+for(i in 1:3){
   cat(letters[exist[i,1]],letters[exist[i,2]],Cfs_matrix[exist[i,1],exist[i,2]],"\n")
 }
 ```
