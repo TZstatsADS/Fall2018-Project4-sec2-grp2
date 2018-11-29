@@ -60,7 +60,7 @@ In this project, we are going to **focus on the third stage -- post-processing**
 
 In this chunk, we have a set of controls for the evaluation experiments. 
 
-+ (T/F) Compute new OCR Confusion Probability Matrix
++ (T/F) Compute new OCR Confusion Probability Matrix and unique letters set for Cfs_matrix
 ```{r controls}
 COMPUTE.CFS=FALSE
 ```
