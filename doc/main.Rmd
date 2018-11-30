@@ -497,7 +497,7 @@ r_pw <- NA
 p_tw <- NA
 p_pw <- NA
 
-correct_path <- "../output/correct/"
+correct_path <- "../output/substituted/"
 correct_names <- dir(correct_path)
 correct_dir_names <- paste0(correct_path,correct_names,sep='')
 
