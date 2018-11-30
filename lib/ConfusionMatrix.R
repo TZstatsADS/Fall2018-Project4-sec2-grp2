@@ -8,7 +8,7 @@ uniqueletters = function(filelist){
   
   for(file in filelist){
     lines = readLines(file, warn=FALSE,encoding = "UTF-8")
-    add=unique( unlist(str_split(lines,"")) )
+    add=unique( unlist(strsplit(lines,"")) )
     letters=unique(c(letters,add))
   }
   if(sum(letters=="")>0)  
@@ -34,11 +34,11 @@ confusion = function(truthlist,ocrlist,letterset){
     # read vector
     ground_truth_txt = readLines(truthlist[file_ind], 
                                          warn=FALSE,encoding = "UTF-8")
-    ground_truth_vec = unlist(str_split(ground_truth_txt," "))
+    ground_truth_vec = unlist(strsplit(ground_truth_txt," "))
     
     ocr_txt = readLines(ocrlist[file_ind], 
                         warn=FALSE,encoding = "UTF-8")
-    ocr_vec = unlist(str_split(ocr_txt," "))
+    ocr_vec = unlist(strsplit(ocr_txt," "))
     
     # fuzzy matching
     ground_len=length(ground_truth_vec)
@@ -68,8 +68,8 @@ confusion = function(truthlist,ocrlist,letterset){
       nc_truth=nchar(ground_truth_vec[i])
       if (nc_truth!=nchar(ocr_vec[j])) next;
       
-      truth_char=str_split( ground_truth_vec[i], "")[[1]]
-      ocr_char  =str_split( ocr_vec[j], "")[[1]]
+      truth_char=strsplit( ground_truth_vec[i], "")[[1]]
+      ocr_char  =strsplit( ocr_vec[j], "")[[1]]
       for(k in 1:nc_truth){
         ocr_ind=which(letterset==ocr_char[k])
         truth_ind=which(letterset==truth_char[k])
@@ -89,5 +89,7 @@ confusion = function(truthlist,ocrlist,letterset){
   # However, I think the paper just calculate the likelihood and try to get MLE
   # I want to calculate the posterior and get MAP, which could be a more accurate estimate of the truth
   
+  # just make the afterwards calculation easier, change NaN into 0
+  mat[is.na(mat)]=0
   return(mat)
 }
