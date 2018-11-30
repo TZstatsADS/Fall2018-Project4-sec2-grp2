@@ -120,8 +120,9 @@ The referenced papers are:
 
 In this statercode, we implement the first three rules in the first paper -- rule based techniques, as an example.
 
-```{r}
+```{r, warning=FALSE}
 #Error detection
+ifcleanlist <- vector('list', 100)
 for(i in c(1:length(file_name_vec))){
 current_file_name <- sub(".txt","",file_name_vec[i])
 
@@ -136,6 +137,7 @@ clean_tesseract_txt <- paste(current_tesseract_txt, collapse = " ")
 ## detect tesseract word error
 tesseract_vec <- str_split(clean_tesseract_txt," ")[[1]] 
 tesseract_if_clean <- unlist(lapply(tesseract_vec,ifCleanToken))
+ifcleanlist[[i]] <- tesseract_if_clean
 
 ##Remove error
 tesseract_delete_error_vec <- tesseract_vec[tesseract_if_clean]
@@ -145,6 +147,7 @@ writeLines(tesseract_delete_error_vec, paste("../output/delete_error/",current_f
 tesseract_error_vec <- tesseract_vec[!tesseract_if_clean]
 writeLines(tesseract_error_vec, paste("../output/error/",current_file_name,".txt",sep=""),useBytes = T)
 }
+save(ifcleanlist, file = '../output/ifcleanlist.RData')
 ```
 
 # Step 4 - Error correction
@@ -294,6 +297,136 @@ lda_inf$terms[,1:10]
 # Output test set topic probabilities
 save(lda_inf, file = '../output/test_topic_prob.RData')
 ```
+
+
+```{r}
+# probabilty of the word
+load('../output/test_topic_prob.RData')
+prob_of_word = lda_inf$topics %*% lda_inf$terms
+prob_of_word = t(prob_of_word)
+dim(prob_of_word)
+```
+
+```{r}
+# total word list
+load('../output/corpus.RData')
+vocab = unique(unlist(corpus))
+yy_prob=prob_of_word
+rownames(yy_prob)=vocab
+#head(yy_prob,12)
+```
+### test_corpus
+```{r}
+load('../output/test_corpus.RData')
+```
+
+### candidate_list
+```{r}
+source("../lib/replace.R")
+```
+
+
+## core_function
+```{r}
+rownames(Cfs_matrix)=letters
+colnames(Cfs_matrix)=letters
+bias=1e-5
+
+
+# New Dict Structure
+my_cfs=new.env()
+for(i in 1:length(letters)){
+  for(j in 1:length(letters)){
+    name=paste(letters[i],letters[j],sep = "")
+    my_cfs[[name]]=Cfs_matrix[i,j]
+  }
+}
+
+problda <- function(wc){
+  if (exists(wc,envir = my_dict))
+    return ( my_dict[[wc]]+bias)
+  return (bias)
+}
+
+probcf <- function(wc,wi){
+  ree = 1
+  n=nchar(wc)
+  wi=strsplit(wi,"")[[1]]
+  wc=strsplit(wc,"")[[1]]
+  ind=paste(wi,wc,sep="")
+  for(i in ind){
+    ree = ree*my_cfs[[i]]
+  }
+  # ree[is.na(ree)] = 0
+  return(ree)
+}
+```
+
+```{r}
+# Score Function
+Score <- function(wc,wi){
+  return(
+    problda(wc) * probcf(wc,wi)
+  )
+}
+```
+
+
+### Correct Word
+```{r}
+# generate correct word function
+source("../lib/replace.R")
+correct <- function(word){
+  word_list = Replaces2(word)
+  score_list <- sapply(word_list,Score,wi=word)
+  return(word_list[which.max(score_list)])
+}
+```
+
+
+```{r}
+error_path <- '../output/error/'
+error_names <- dir('../output/test_set/')
+error_dir <- paste(error_path, error_names, sep = '')
+error_set <- vector('list', length = length(error_dir))
+for (i in 1:length(error_dir)){
+  error_set[[i]] <- readLines(error_dir[i], encoding = 'UTF-8')
+}
+```
+
+### correct words(example)(do not run time consuming!!!)
+```{r}
+substitution <- error_set
+for (i in 1:length(error_set)){
+  my_dict=new.env()
+  for(word in vocab){
+    my_dict[[word]]=yy_prob[word,i]
+  }
+  for (j in 1:length(error_set[[i]])){
+    substitution[[i]][j] <- correct(error_set[[i]][j])
+  }
+  writeLines(substitution[[i]], sub('/error/', '/substituted/', error_dir[i]))
+}
+save(substitution, file = '../output/substitution.RData')
+```
+
+## Generate full document
+```{r}
+load('../output/substitution.RData')
+load('../output/ifcleanlist.RData')
+ifcleanind <- vector('list', 20)
+for (i in 1:20){
+  ifcleanind[[i]] <- ifcleanlist[[i*5]]
+}
+new_doc_names <- paste('../data/tesseract/', error_names, sep = '')
+new_doc <- vector('list', length = length(error_set))
+for (i in 1:length(new_doc)){
+  new_doc[[i]] <- readLines(new_doc_names, encoding = 'UTF-8')
+  new_doc[[i]][match(ifcleanind[[i]] == TRUE)] <- substitution[[i]]
+  writeLines(new_doc[[i]], paste('../output/new_doc/', error_names[i], sep = ''), encoding = 'UTF-8')
+}
+```
+
 
 # Step 5 - Performance measure
 
