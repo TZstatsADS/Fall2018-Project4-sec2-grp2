@@ -46,11 +46,12 @@ Term: Fall 2018
 	+ Cai, Yang (Implemented error detection method with rule based technique)
 	+ Yu, Wenting (Implemented error detection method with rule based technique)
 + Error Correction
-	+ Cui, Jiayi (Building LDA model and generating topic-document-word probilities)
+	+ Cui, Jiayi (Built term-doc frequency matrix and LDA model, generated topic-document-word probilities and reproduced final documents)
 	+ Yang, Yang (Complete confusion probability matrix with fuzzy matching, Design score architecture, Speed up fetching with new [pythondict-like Data Structure](https://github.com/jokerkeny/Dict-for-R) by 200 times, Speed up candidate generator 50 times)
 	+ Wang, Nannan (Generate all word candidates,Computing word candidate scores and substituting/Presenter)
 + Performance Measurement
 	+ Cai, Yang (Implemented RETAS Algorithm to measure the performance of detection method)
+	+ Cui, Jiayi (Computed error correction performance)
 
 **References**:
 + Kulp, Scott, and April Kontostathis. On Retrieving Legal Files: Shortening Documents and Weeding Out Garbage        webpages.ursinus.edu/akontostathis/KulpKontostathisFinal.pdf

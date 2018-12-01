@@ -396,7 +396,9 @@ for (i in 1:length(error_dir)){
 
 ### correct words(example)(do not run time consuming!!!)
 ```{r}
-substitution <- error_set
+# substitution <- error_set
+# for (i in 1:length(error_set)){
+load('../output/substitution.RData')
 for (i in 1:length(error_set)){
   my_dict=new.env()
   for(word in vocab){
@@ -405,7 +407,7 @@ for (i in 1:length(error_set)){
   for (j in 1:length(error_set[[i]])){
     substitution[[i]][j] <- correct(error_set[[i]][j])
   }
-  writeLines(substitution[[i]], sub('/error/', '/substituted/', error_dir[i]))
+  writeLines(unlist(substitution[[i]]), sub('/error/', '/substituted/', error_dir[i]))
 }
 save(substitution, file = '../output/substitution.RData')
 ```
@@ -421,9 +423,10 @@ for (i in 1:20){
 new_doc_names <- paste('../data/tesseract/', error_names, sep = '')
 new_doc <- vector('list', length = length(error_set))
 for (i in 1:length(new_doc)){
-  new_doc[[i]] <- readLines(new_doc_names, encoding = 'UTF-8')
-  new_doc[[i]][match(ifcleanind[[i]] == TRUE)] <- substitution[[i]]
-  writeLines(new_doc[[i]], paste('../output/new_doc/', error_names[i], sep = ''), encoding = 'UTF-8')
+  new_doc[[i]] <- readLines(new_doc_names[i], encoding = 'UTF-8')
+  sub_ind <- which(ifcleanind[[i]] == TRUE)
+  new_doc[[i]][sub_ind] <- substitution[[i]]
+  writeLines(unlist(new_doc[[i]]), paste('../output/new_doc/', error_names[i], sep = ''))
 }
 ```
 
@@ -497,20 +500,20 @@ r_pw <- NA
 p_tw <- NA
 p_pw <- NA
 
-correct_path <- "../output/substituted/"
+correct_path <- "../output/new_doc/"
 correct_names <- dir(correct_path)
 correct_dir_names <- paste0(correct_path,correct_names,sep='')
 
 truth_path <- "../data/ground_truth/"
-truth_names <- dir(truth_path)
-dir_names <- paste0(truth_path,truth_names)
+post_truth_names <- dir(correct_path)
+post_dir_names <- paste0(truth_path, post_truth_names)
 
 tesseract_path <- "../data/tesseract/"
-t_dir_names <- paste(tesseract_path,truth_names,sep='')
+t_dir_names <- paste(tesseract_path,post_truth_names,sep='')
 
 for (i in 1:length(correct_names)){
-## read ground truth text
- current_ground_truth_txt <- readLines(paste0(dir_names[i]), warn=FALSE,encoding = "UTF-8")
+## read test set ground truth text
+ current_ground_truth_txt <- readLines(paste0(post_dir_names[i]), warn=FALSE,encoding = "UTF-8")
     ground_truth_vec <- str_split(paste(current_ground_truth_txt, collapse = " ")," ")[[1]]
 ground_truth_vec <- str_split(paste(current_ground_truth_txt, collapse = " ")," ")[[1]]
 
@@ -562,7 +565,7 @@ measurement(tesseract_dir=t_dir_names,result_dir = noerror_dir_names,truth_dir =
 
 #letter-level performance measure for error correction
 ```{r}
-measurement_correct(tesseract_dir=t_dir_names,result_dir=correct_dir_names,truth_dir=dir_names)
+measurement_correct(tesseract_dir=t_dir_names[1],result_dir=correct_dir_names[1],truth_dir=post_dir_names[1])
 ```
 
 Besides the above required measurement, you are encouraged the explore more evaluation measurements. Here are some related references:
