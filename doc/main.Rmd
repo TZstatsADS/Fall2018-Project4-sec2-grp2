@@ -395,9 +395,10 @@ for (i in 1:length(error_dir)){
 ```
 
 ### correct words(example)(do not run time consuming!!!)
+### We only generated the first document
 ```{r}
 # substitution <- error_set
-# for (i in 1:length(error_set)){
+# for (i in 1:1){
 load('../output/substitution.RData')
 for (i in 1:length(error_set)){
   my_dict=new.env()
@@ -423,8 +424,10 @@ for (i in 1:20){
 new_doc_names <- paste('../data/tesseract/', error_names, sep = '')
 new_doc <- vector('list', length = length(error_set))
 for (i in 1:length(new_doc)){
-  new_doc[[i]] <- readLines(new_doc_names[i], encoding = 'UTF-8')
-  sub_ind <- which(ifcleanind[[i]] == TRUE)
+  file <- readLines(new_doc_names[i], encoding = 'UTF-8')
+  file <- paste(file, collapse = ' ')
+  new_doc[[i]] <- unlist(str_split(file, ' ')[[1]])
+  sub_ind <- which(ifcleanind[[i]] == FALSE)
   new_doc[[i]][sub_ind] <- substitution[[i]]
   writeLines(unlist(new_doc[[i]]), paste('../output/new_doc/', error_names[i], sep = ''))
 }
