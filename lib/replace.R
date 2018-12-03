@@ -31,7 +31,9 @@ Replaces2 <- function(word) {
   for(i in 1:(N-1)) {
     for(j in (i+1):N) {
       # cat(i,j,"\n")
-      can_list=c(can_list,paste(substr(word,1,i-1),letters_rep,substr(word,i+1,j-1),letters,substr(word,j+1,N),sep="")
+      can_list=c(can_list,paste0(substr(word,1,i-1),letters_rep,
+                                substr(word,i+1,j-1),letters,
+                                substr(word,j+1,N))
             )
     }
   }
@@ -44,3 +46,29 @@ Replaces2 <- function(word) {
 # system.time (for(i in 1:100) {temp<-Replaces2("STAFF")} )
 # user  system elapsed 
 # 4.26    0.14    4.52
+
+# Prunning Version, which is much fewer(16 to 10000 times) than candidates.
+Prun_Replaces2 <- function(word) {
+  N <- nchar(word)
+  if(N==1)
+    return(letters)
+  
+  ## The prunning part, in trained confusion matrix, there are only several possible
+  ## candidate letters, which could be mistaken as the given letter in OCR text.
+  letter_pos=vector("list",length=N)
+  for(i in 1:N){
+    letter_pos[[i]]=letters[ Cfs_matrix[substr(word,i,i),]>0 ]
+  }
+  
+  can_list=NULL
+  for(i in 1:(N-1)) {
+    for(j in (i+1):N) {
+      # cat(i,j,"\n")
+      part1=paste0(substr(word,1,i-1),letter_pos[[i]])
+      part2=paste0(substr(word,i+1,j-1),letter_pos[[j]],substr(word,j+1,N))
+      cur_wordlist=c(outer(part1,part2,FUN=paste0))
+      can_list=c(can_list,cur_wordlist)
+    }
+  }
+  return(can_list)
+}
